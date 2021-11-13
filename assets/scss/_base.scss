@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family:Poppins ;
+    font-weight: 400;
+    color: #666666;
+    line-height: 1.7;
+    
+   
+}
+
+h2{
+    font-size: 26px;
+    font-weight: 500;
+    color: #000;
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color:#fff;
+}

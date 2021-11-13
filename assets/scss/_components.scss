@@ -1,0 +1,18 @@
+.page-title{
+    background-color: #f0f0f0;
+    background-image: url(../images/page-title.jpg) !important;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    h1{
+        font-weight: 500;
+        font-size: 48px;
+        text-transform: uppercase;
+        color: #fff;
+
+    }
+}
