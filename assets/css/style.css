@@ -1159,7 +1159,10 @@ a {
     color: #fff; }
 
 header {
-  background-color: #a34253; }
+  background-color: #a34253;
+  position: sticky;
+  top: 0;
+  z-index: 999; }
   header ul {
     display: flex;
     justify-content: space-between;
@@ -1192,3 +1195,54 @@ header {
         font-weight: 400; }
       header ul li a:hover {
         color: #5db582; }
+
+main {
+  width: 100%;
+  height: auto;
+  position: relative; }
+  main .arrows {
+    position: relative;
+    z-index: 1;
+    top: 25%; }
+    main .arrows .bi-chevron-left {
+      background-color: #fff;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      left: 3%;
+      top: 350px;
+      cursor: pointer;
+      opacity: .5;
+      transition: .3s all; }
+      main .arrows .bi-chevron-left:hover {
+        opacity: 1; }
+    main .arrows .bi-chevron-right {
+      background-color: #fff;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      right: 3%;
+      top: 350px;
+      cursor: pointer;
+      opacity: .5;
+      transition: .3s all; }
+      main .arrows .bi-chevron-right:hover {
+        opacity: 1; }
+  main .slider-item {
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+    transition: .7s all; }
+    main .slider-item.active {
+      opacity: 1; }
+    main .slider-item img {
+      width: 100%;
+      height: auto; }
+  main .slider-main-img {
+    position: absolute;
+    z-index: 1;
+    max-width: 100%;
+    top: 200px;
+    left: 33%; }
