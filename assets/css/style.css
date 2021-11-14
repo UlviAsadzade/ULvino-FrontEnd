@@ -1125,7 +1125,8 @@ body {
   font-family: Poppins;
   font-weight: 400;
   color: #666666;
-  line-height: 1.7; }
+  line-height: 1.7;
+  background-color: #fff; }
 
 h2 {
   font-size: 26px;
@@ -1156,3 +1157,38 @@ a {
     font-size: 48px;
     text-transform: uppercase;
     color: #fff; }
+
+header {
+  background-color: #a34253; }
+  header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    header ul li a {
+      transition: 0.3s all;
+      opacity: 0.8;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: .6px;
+      position: relative;
+      line-height: 96px; }
+      header ul li a .bi-person-fill {
+        margin-left: -36px;
+        margin-right: 20px; }
+      header ul li a .bi-search {
+        margin-right: 24px; }
+      header ul li a span {
+        background-color: #fff;
+        color: #454545;
+        font-size: 12px;
+        height: 18px;
+        position: absolute;
+        right: -15px;
+        line-height: 18px;
+        top: -10px;
+        width: 18px;
+        border-radius: 50%;
+        text-align: center;
+        font-weight: 400; }
+      header ul li a:hover {
+        color: #5db582; }

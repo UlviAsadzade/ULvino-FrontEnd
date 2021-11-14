@@ -1,3 +1,49 @@
+header{
+    background-color: #a34253;
+    // padding: 15px 0;
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // padding: 15px 0;
 
+        li{
+            a{
+                transition: 0.3s all;
+                opacity: 0.8;
+                font-size: 14px;
+                font-weight: 600;
+                letter-spacing: .6px;
+                position: relative;
+                line-height: 96px;
+                & .bi-person-fill{
+                    margin-left: -36px;
+                    margin-right: 20px;
+                }
+                & .bi-search{
+                    margin-right: 24px;
+                }
+                & span{
+                    background-color: #fff;
+                    color: #454545;
+                    font-size: 12px;
+                    height: 18px;
+                    position: absolute;
+                    right: -15px;
+                    line-height: 18px;
+                    top: -10px;
+                    width: 18px;
+                    border-radius: 50%;
+                    text-align: center;
+                    font-weight: 400;
+                }
+                &:hover{
+                    color: #5db582;
+                }
+              
+            }
+        }
+    }
+}
 
 
