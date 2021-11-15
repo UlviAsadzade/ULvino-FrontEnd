@@ -170,6 +170,50 @@ body{
                 }
             }
         }
+        & .deal-right{
+            // width: 100%;
+            & .deal-right-img{
+                // width: 100%;
+                object-fit: cover;
+                padding: 0;
+            }
+        }
+    }
+
+    .customers{
+        margin-bottom: 40px;
+        & .customers-left-img{
+            width: 100%;
+        }
+        & .customers-right{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            & h5{
+                font-size: 14px;
+                letter-spacing: 1.6px;
+                color: #A34253;
+                font-weight: 400;
+                font-family: "Pacifico",Sans-serif;
+                margin: 14px 0;
+            }
+            & h2{
+                margin-bottom: 40px;
+            }
+            & .customers-right-text{
+                text-align: center;
+                font-size: 14px;
+                margin-bottom: 30px;
+            }
+            & .customers-right-images{
+                padding-left: 20px;
+                & img{
+                    margin: 20px 0;
+                }
+            }
+        }
+
     }
 }
 
