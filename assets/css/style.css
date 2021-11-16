@@ -1347,7 +1347,7 @@ body {
     body .last-blog .last-blog-main {
       text-align: center; }
       body .last-blog .last-blog-main h5 {
-        font-size: 14px;
+        font-size: 16px;
         letter-spacing: 1.6px;
         color: #A34253;
         font-weight: 400;
@@ -1375,3 +1375,45 @@ body {
         body .last-blog .last-blog-main .last-blog-right p {
           font-size: 14px;
           font-weight: 400; }
+  body .last-news {
+    margin-bottom: 80px; }
+    body .last-news .last-news-main {
+      text-align: center; }
+      body .last-news .last-news-main h5 {
+        font-size: 16px;
+        letter-spacing: 3.6px;
+        color: #A34253;
+        font-weight: 400;
+        font-family: "Pacifico",Sans-serif;
+        margin: 14px 0; }
+      body .last-news .last-news-main h2 {
+        margin-bottom: 40px; }
+      body .last-news .last-news-main form {
+        position: relative; }
+        body .last-news .last-news-main form input {
+          text-align: left;
+          color: #7e7e7e;
+          border-radius: 30px;
+          border: 1px solid #e5e5e5;
+          padding: 0 20px;
+          width: 800px;
+          height: 52px;
+          font-size: 14px; }
+          body .last-news .last-news-main form input:focus {
+            outline: none;
+            border-color: #A34253;
+            box-shadow: 0 0 10px #A34253; }
+        body .last-news .last-news-main form .button {
+          background-color: #A34253;
+          color: #fff;
+          border-radius: 30px;
+          font-size: 14px;
+          font-weight: 600;
+          padding: 14px 24px;
+          transition: .3s all;
+          letter-spacing: 2px;
+          position: absolute;
+          right: 10%; }
+          body .last-news .last-news-main form .button:hover {
+            background-color: #000;
+            color: #fff; }
