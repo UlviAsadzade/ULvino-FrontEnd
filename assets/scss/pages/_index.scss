@@ -180,6 +180,43 @@ body{
         }
     }
 
+    .top-sale{
+        min-height: 600px;
+        // background-image: url("/assets/images/top-sale-bg.jpg");
+        background-position: center center;
+        background-attachment: fixed;
+        background-image: url(https://pro.woovina.net/demo-40/wp-content/uploads/2020/06/bottle-barrel-min.jpg);
+        margin-bottom: 60px;
+        & .top-sale-main{
+            text-align: center;
+            margin-top: 100px;
+            & h3{
+                color: #fff;
+                font-size: 30px;
+                margin-bottom: 120px;
+            }
+            & h1{
+                font-size: 50px;
+                color: #fff;
+                letter-spacing: 4px;
+                margin-bottom: 120px;
+            }
+            & .button{
+                background-color: #A34253;
+                color: #fff;
+                border-radius: 50px;
+                font-size: 24px;
+                padding: 12px 24px;
+                transition: .3s all;
+                &:hover{
+                    background-color: #fff;
+                    color: #000;
+                }
+            }
+        }
+
+    }
+
     .customers{
         margin-bottom: 40px;
         & .customers-left-img{

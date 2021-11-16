@@ -1289,6 +1289,34 @@ body {
     body .deal-of-day .deal-right .deal-right-img {
       object-fit: cover;
       padding: 0; }
+  body .top-sale {
+    min-height: 600px;
+    background-position: center center;
+    background-attachment: fixed;
+    background-image: url(https://pro.woovina.net/demo-40/wp-content/uploads/2020/06/bottle-barrel-min.jpg);
+    margin-bottom: 60px; }
+    body .top-sale .top-sale-main {
+      text-align: center;
+      margin-top: 100px; }
+      body .top-sale .top-sale-main h3 {
+        color: #fff;
+        font-size: 30px;
+        margin-bottom: 120px; }
+      body .top-sale .top-sale-main h1 {
+        font-size: 50px;
+        color: #fff;
+        letter-spacing: 4px;
+        margin-bottom: 120px; }
+      body .top-sale .top-sale-main .button {
+        background-color: #A34253;
+        color: #fff;
+        border-radius: 50px;
+        font-size: 24px;
+        padding: 12px 24px;
+        transition: .3s all; }
+        body .top-sale .top-sale-main .button:hover {
+          background-color: #fff;
+          color: #000; }
   body .customers {
     margin-bottom: 40px; }
     body .customers .customers-left-img {
