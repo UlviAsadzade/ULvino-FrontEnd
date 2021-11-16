@@ -1342,3 +1342,36 @@ body {
         padding-left: 20px; }
         body .customers .customers-right .customers-right-images img {
           margin: 20px 0; }
+  body .last-blog {
+    padding: 40px 0; }
+    body .last-blog .last-blog-main {
+      text-align: center; }
+      body .last-blog .last-blog-main h5 {
+        font-size: 14px;
+        letter-spacing: 1.6px;
+        color: #A34253;
+        font-weight: 400;
+        font-family: "Pacifico",Sans-serif;
+        margin: 14px 0; }
+      body .last-blog .last-blog-main h2 {
+        margin-bottom: 40px; }
+      body .last-blog .last-blog-main .last-blog-left {
+        margin-bottom: 60px;
+        overflow: hidden; }
+        body .last-blog .last-blog-main .last-blog-left img {
+          transition: all 0.3s;
+          width: 100%;
+          transform: scale(1); }
+          body .last-blog .last-blog-main .last-blog-left img:hover {
+            transform: scale(1.1); }
+      body .last-blog .last-blog-main .last-blog-right {
+        text-align: left;
+        color: #000; }
+        body .last-blog .last-blog-main .last-blog-right h4 {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 1.4;
+          margin-bottom: 20px; }
+        body .last-blog .last-blog-main .last-blog-right p {
+          font-size: 14px;
+          font-weight: 400; }
