@@ -182,10 +182,8 @@ body{
 
     .top-sale{
         min-height: 600px;
-        // background-image: url("/assets/images/top-sale-bg.jpg");
         background-position: center center;
         background-attachment: fixed;
-        background-image: url(https://pro.woovina.net/demo-40/wp-content/uploads/2020/06/bottle-barrel-min.jpg);
         margin-bottom: 60px;
         & .top-sale-main{
             text-align: center;
@@ -251,6 +249,105 @@ body{
             }
         }
 
+    }
+
+    .testimonials{
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        & .testimonials-main{
+            padding: 60px 15px;
+            cursor: grab;
+            text-align: center;
+            & .arrows{
+                position: relative;
+                z-index: 1;
+                .bi-chevron-left{
+                    background-color: #fff;
+                    border-radius: 50%;
+                    width: 30px;
+                    height: 30px;
+                    position: absolute;
+                    left: 28%;
+                    top: 150px;
+                    cursor: pointer;
+                    opacity: .5;
+                    transition: .3s all;
+                    &:hover{
+                        opacity: 1;
+                    }
+        
+                }
+                .bi-chevron-right{
+                    background-color: #fff;
+                    border-radius: 50%;
+                    width: 30px;
+                    height: 30px;
+                    position: absolute;
+                    right: 28%;
+                    top: 150px;
+                    cursor: pointer;
+                    opacity: .5;
+                    transition: .3s all;
+                    &:hover{
+                        opacity: 1;
+                    }
+        
+                }
+            }
+            & h3{
+                color: #fff;
+                font-size: 28px;
+                letter-spacing: 4px;
+                margin-bottom: 50px;
+            }
+            & .feedback-box{
+                display: none;
+                &.active{
+                    display: block;
+                }
+                & .feedback-user{
+                    display: flex;
+                    flex-direction: column;
+                    width: 770px;
+                    margin: 0 auto;
+                 
+                    & p{
+                        color: #fff;
+                        font-size: 14px;
+                        font-weight: 400;
+                        margin-bottom: 40px;
+                    }
+                    & .user-box{
+                        display: flex;
+                        margin: 0 auto;
+                        align-items: center;
+                        & img{
+                            margin-right: 20px;
+                            width: 80px;
+                            height: 80px;
+                        }
+                        & .user-name{
+                            display: flex;
+                            flex-direction: column;
+                            & span:nth-child(1){
+                                color: #fff;
+                                font-size: 16px;
+                                letter-spacing: 1px;
+                                font-weight: 600;
+                            }
+                            & span:nth-child(2){
+                                color: #fff;
+                                font-size: 14px;
+                                letter-spacing: 1px;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
     }
 
     .last-blog{

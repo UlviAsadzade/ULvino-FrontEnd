@@ -1293,7 +1293,6 @@ body {
     min-height: 600px;
     background-position: center center;
     background-attachment: fixed;
-    background-image: url(https://pro.woovina.net/demo-40/wp-content/uploads/2020/06/bottle-barrel-min.jpg);
     margin-bottom: 60px; }
     body .top-sale .top-sale-main {
       text-align: center;
@@ -1342,6 +1341,83 @@ body {
         padding-left: 20px; }
         body .customers .customers-right .customers-right-images img {
           margin: 20px 0; }
+  body .testimonials {
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    body .testimonials .testimonials-main {
+      padding: 60px 15px;
+      cursor: grab;
+      text-align: center; }
+      body .testimonials .testimonials-main .arrows {
+        position: relative;
+        z-index: 1; }
+        body .testimonials .testimonials-main .arrows .bi-chevron-left {
+          background-color: #fff;
+          border-radius: 50%;
+          width: 30px;
+          height: 30px;
+          position: absolute;
+          left: 28%;
+          top: 150px;
+          cursor: pointer;
+          opacity: .5;
+          transition: .3s all; }
+          body .testimonials .testimonials-main .arrows .bi-chevron-left:hover {
+            opacity: 1; }
+        body .testimonials .testimonials-main .arrows .bi-chevron-right {
+          background-color: #fff;
+          border-radius: 50%;
+          width: 30px;
+          height: 30px;
+          position: absolute;
+          right: 28%;
+          top: 150px;
+          cursor: pointer;
+          opacity: .5;
+          transition: .3s all; }
+          body .testimonials .testimonials-main .arrows .bi-chevron-right:hover {
+            opacity: 1; }
+      body .testimonials .testimonials-main h3 {
+        color: #fff;
+        font-size: 28px;
+        letter-spacing: 4px;
+        margin-bottom: 50px; }
+      body .testimonials .testimonials-main .feedback-box {
+        display: none; }
+        body .testimonials .testimonials-main .feedback-box.active {
+          display: block; }
+        body .testimonials .testimonials-main .feedback-box .feedback-user {
+          display: flex;
+          flex-direction: column;
+          width: 770px;
+          margin: 0 auto; }
+          body .testimonials .testimonials-main .feedback-box .feedback-user p {
+            color: #fff;
+            font-size: 14px;
+            font-weight: 400;
+            margin-bottom: 40px; }
+          body .testimonials .testimonials-main .feedback-box .feedback-user .user-box {
+            display: flex;
+            margin: 0 auto;
+            align-items: center; }
+            body .testimonials .testimonials-main .feedback-box .feedback-user .user-box img {
+              margin-right: 20px;
+              width: 80px;
+              height: 80px; }
+            body .testimonials .testimonials-main .feedback-box .feedback-user .user-box .user-name {
+              display: flex;
+              flex-direction: column; }
+              body .testimonials .testimonials-main .feedback-box .feedback-user .user-box .user-name span:nth-child(1) {
+                color: #fff;
+                font-size: 16px;
+                letter-spacing: 1px;
+                font-weight: 600; }
+              body .testimonials .testimonials-main .feedback-box .feedback-user .user-box .user-name span:nth-child(2) {
+                color: #fff;
+                font-size: 14px;
+                letter-spacing: 1px; }
   body .last-blog {
     padding: 40px 0; }
     body .last-blog .last-blog-main {
