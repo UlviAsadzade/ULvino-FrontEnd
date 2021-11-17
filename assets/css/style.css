@@ -1167,40 +1167,40 @@ body {
     position: fixed;
     top: 0;
     z-index: 999; }
-    body header .header-fixed {
-      position: static; }
-      body header .header-fixed ul {
-        display: flex;
-        justify-content: space-between;
-        align-items: center; }
-        body header .header-fixed ul li a {
-          transition: 0.3s all;
-          opacity: 0.8;
-          font-size: 14px;
-          font-weight: 600;
-          letter-spacing: .6px;
-          position: relative;
-          line-height: 96px; }
-          body header .header-fixed ul li a .bi-person-fill {
-            margin-left: -12px;
-            margin-right: 20px; }
-          body header .header-fixed ul li a .bi-search {
-            margin-right: 24px; }
-          body header .header-fixed ul li a span {
-            background-color: #fff;
-            color: #454545;
-            font-size: 12px;
-            height: 18px;
-            position: absolute;
-            right: -15px;
-            line-height: 18px;
-            top: -10px;
-            width: 18px;
-            border-radius: 50%;
-            text-align: center;
-            font-weight: 400; }
-          body header .header-fixed ul li a:hover {
-            color: #5db582; }
+    body header .header-fixed ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      body header .header-fixed ul li a {
+        transition: 0.3s all;
+        opacity: 0.8;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: .6px;
+        position: relative;
+        line-height: 96px; }
+        body header .header-fixed ul li a i {
+          font-size: 20px; }
+        body header .header-fixed ul li a .fa-user {
+          margin-left: -12px;
+          margin-right: 20px; }
+        body header .header-fixed ul li a .fa-search {
+          margin-right: 24px; }
+        body header .header-fixed ul li a span {
+          background-color: #fff;
+          color: #454545;
+          font-size: 12px;
+          height: 18px;
+          position: absolute;
+          right: -15px;
+          line-height: 18px;
+          top: -10px;
+          width: 18px;
+          border-radius: 50%;
+          text-align: center;
+          font-weight: 400; }
+        body header .header-fixed ul li a:hover {
+          color: #5db582; }
   body main {
     padding-top: 110px;
     width: 101%; }
@@ -1348,7 +1348,6 @@ body {
     background-size: cover; }
     body .testimonials .testimonials-main {
       padding: 60px 15px;
-      cursor: grab;
       text-align: center; }
       body .testimonials .testimonials-main .arrows {
         position: relative;
@@ -1493,3 +1492,114 @@ body {
           body .last-news .last-news-main form .button:hover {
             background-color: #000;
             color: #fff; }
+  body footer {
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    body footer .footer-main {
+      padding: 60px 0; }
+      body footer .footer-main .footer-logo {
+        margin-bottom: 30px;
+        transition: .3s all; }
+        body footer .footer-main .footer-logo:hover {
+          opacity: .6; }
+      body footer .footer-main p {
+        margin-bottom: 30px;
+        width: 80%;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px; }
+      body footer .footer-main .footer-icon-box {
+        color: #fff;
+        font-size: 14px;
+        margin-bottom: 30px;
+        transition: .3s all; }
+        body footer .footer-main .footer-icon-box:hover {
+          color: #a34253; }
+        body footer .footer-main .footer-icon-box span {
+          padding-left: 5px; }
+      body footer .footer-main h3 {
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 20px;
+        margin-bottom: 40px;
+        padding-top: 80px; }
+      body footer .footer-main .footer-item {
+        display: block;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: #fff;
+        padding-bottom: 30px;
+        cursor: pointer;
+        transition: .3s all; }
+        body footer .footer-main .footer-item:hover {
+          color: #a34253; }
+      body footer .footer-main .footer-right .hotline-box {
+        margin-bottom: 10px;
+        display: flex; }
+        body footer .footer-main .footer-right .hotline-box img {
+          width: 50px;
+          height: 50px;
+          margin-right: 10px; }
+        body footer .footer-main .footer-right .hotline-box .hotline-texts {
+          width: 100%; }
+          body footer .footer-main .footer-right .hotline-box .hotline-texts h4 {
+            margin-bottom: 10px;
+            color: #FFF;
+            font-size: 14px; }
+          body footer .footer-main .footer-right .hotline-box .hotline-texts p {
+            color: #ec3c2e;
+            font-size: 14px;
+            font-weight: 500; }
+      body footer .footer-main .footer-right .footer-right-adress {
+        display: block;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: #fff;
+        margin-bottom: 20px; }
+      body footer .footer-main .footer-right .footer-right-mail {
+        display: block;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: #fff;
+        margin-bottom: 30px; }
+      body footer .footer-main .footer-right .social-media-icons {
+        width: 100%; }
+        body footer .footer-main .footer-right .social-media-icons i {
+          font-size: 24px;
+          margin-right: 16px;
+          transition: .3s all; }
+          body footer .footer-main .footer-right .social-media-icons i.fa-twitter:hover {
+            color: #46d4fe !important; }
+          body footer .footer-main .footer-right .social-media-icons i.fa-facebook:hover {
+            color: #37589b !important; }
+          body footer .footer-main .footer-right .social-media-icons i.fa-google-plus:hover {
+            color: #de5a49 !important; }
+          body footer .footer-main .footer-right .social-media-icons i.fa-youtube:hover {
+            color: #C4302B !important; }
+    body footer .footer-bottom {
+      width: 100%;
+      color: #fff;
+      padding: 40px 15px;
+      background-color: rgba(255, 255, 255, 0.08); }
+      body footer .footer-bottom .footer-bottom-box {
+        display: block;
+        text-align: start !important;
+        line-height: 39px !important;
+        font-size: 16px;
+        font-family: Work Sans;
+        font-weight: 400;
+        width: 100%; }
+        body footer .footer-bottom .footer-bottom-box a {
+          color: #a34253; }
+          body footer .footer-bottom .footer-bottom-box a:hover {
+            text-decoration: underline; }
+        body footer .footer-bottom .footer-bottom-box span {
+          margin-left: 100px; }
