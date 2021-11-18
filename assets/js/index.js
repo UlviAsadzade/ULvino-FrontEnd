@@ -39,6 +39,36 @@ leftArrow.onclick = function () {
 
 ///////////////////////////////////////
 
+// Scroll button start
+
+const scrollTop = document.querySelector('.scroll-top');
+
+scrollTop.onclick = function(e){
+    e.preventDefault();
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+      });
+}
+
+window.addEventListener("scroll", () => {
+    if (window.pageYOffset > 200) {
+        scrollTop.classList.add("active");
+    } else {
+        scrollTop.classList.remove("active");
+    }
+  })
+
+
+
+// Scroll button finish
+
+
+
+///////////////////////////////////////
+
+
 // Testimonials section start
 
 const left = document.querySelector(".testimonials .bi-chevron-left")
