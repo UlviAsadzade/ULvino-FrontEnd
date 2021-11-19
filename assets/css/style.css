@@ -1172,7 +1172,7 @@ body {
       justify-content: space-between;
       align-items: center; }
       body header .header-fixed ul li a {
-        transition: 0.3s all;
+        transition: 0.2s all;
         opacity: 0.8;
         font-size: 14px;
         font-weight: 600;
@@ -1186,7 +1186,7 @@ body {
           margin-right: 20px; }
         body header .header-fixed ul li a .fa-search {
           margin-right: 24px; }
-        body header .header-fixed ul li a span {
+        body header .header-fixed ul li a .icon-count {
           background-color: #fff;
           color: #454545;
           font-size: 12px;
@@ -1200,7 +1200,43 @@ body {
           text-align: center;
           font-weight: 400; }
         body header .header-fixed ul li a:hover {
-          color: #5db582; }
+          color: #0e0809; }
+      body header .header-fixed ul li.account-box-main {
+        position: relative;
+        visibility: hidden;
+        transition: 0.7s all; }
+        body header .header-fixed ul li.account-box-main.active {
+          visibility: visible; }
+        body header .header-fixed ul li.account-box-main .my-account-box {
+          background-color: #fff;
+          color: #000;
+          position: absolute;
+          top: 62px;
+          left: -110px;
+          min-width: 170px;
+          padding: 23px;
+          z-index: 1;
+          border-radius: 10px;
+          letter-spacing: 0.6px; }
+          body header .header-fixed ul li.account-box-main .my-account-box a {
+            transition: none; }
+          body header .header-fixed ul li.account-box-main .my-account-box p {
+            color: #454545;
+            text-transform: uppercase;
+            font-weight: 500;
+            line-height: 25px;
+            padding: 0;
+            font-size: 16px;
+            cursor: unset; }
+          body header .header-fixed ul li.account-box-main .my-account-box span {
+            font-size: 14px;
+            padding: 5px 0;
+            line-height: 26px;
+            color: #959595;
+            display: block;
+            font-weight: 400; }
+            body header .header-fixed ul li.account-box-main .my-account-box span:hover {
+              color: #0e0809; }
   body main {
     padding-top: 110px;
     width: 101%; }
@@ -1396,7 +1432,7 @@ body {
             body .feature-products .feature-products-main .products-box .product-card .card-img img:hover {
               transform: scale(1.1); }
         body .feature-products .feature-products-main .products-box .product-card .card-body {
-          transition: .5s all;
+          transition: 0.5s all;
           border-radius: 0 0 20px 20px; }
           body .feature-products .feature-products-main .products-box .product-card .card-body h5 {
             font-size: 14px;

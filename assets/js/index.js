@@ -1,3 +1,32 @@
+// Header section start
+
+const accountIcon = document.querySelector('.fa-user')
+const accountBox = document.querySelector('.account-box-main')
+
+accountIcon.onmouseover=function(){
+    accountBox.classList.add('active')
+
+}
+
+accountIcon.onmouseout=function(){
+    accountBox.classList.remove('active')
+
+}
+
+accountBox.onmouseover=function(){
+    accountBox.classList.add('active')
+
+}
+
+accountBox.onmouseout=function(){
+    accountBox.classList.remove('active')
+
+}
+// Header section finish
+
+///////////////////////////////////////
+
+
 // Slider section start
 const leftArrow = document.querySelector(".slider .bi-chevron-left")
 const rightArrow = document.querySelector(".slider .bi-chevron-right")

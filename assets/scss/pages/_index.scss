@@ -13,9 +13,10 @@ body {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+
                 li {
                     a {
-                        transition: 0.3s all;
+                        transition: 0.2s all;
                         opacity: 0.8;
                         font-size: 14px;
                         font-weight: 600;
@@ -32,7 +33,7 @@ body {
                         & .fa-search {
                             margin-right: 24px;
                         }
-                        & span {
+                        & .icon-count {
                             background-color: #fff;
                             color: #454545;
                             font-size: 12px;
@@ -47,7 +48,52 @@ body {
                             font-weight: 400;
                         }
                         &:hover {
-                            color: #5db582;
+                            color: #0e0809;
+                        }
+                    }
+
+                    &.account-box-main {
+                        position: relative;
+                        visibility: hidden;
+                        transition: 0.7s all;
+                        &.active {
+                            visibility: visible;
+                        }
+                        & .my-account-box {
+                            background-color: #fff;
+                            color: #000;
+                            position: absolute;
+                            top: 62px;
+                            left: -110px;
+                            min-width: 170px;
+                            padding: 23px;
+                            z-index: 1;
+                            border-radius: 10px;
+                            // transition: 0.7s all;
+                            letter-spacing: 0.6px;
+                            & a {
+                                transition: none;
+                            }
+                            & p {
+                                color: #454545;
+                                text-transform: uppercase;
+                                font-weight: 500;
+                                line-height: 25px;
+                                padding: 0;
+                                font-size: 16px;
+                                cursor: unset;
+                            }
+                            & span {
+                                font-size: 14px;
+                                padding: 5px 0;
+                                line-height: 26px;
+                                color: #959595;
+                                display: block;
+                                font-weight: 400;
+                                &:hover {
+                                    color: #0e0809;
+                                }
+                            }
                         }
                     }
                 }
@@ -280,7 +326,7 @@ body {
             & .products-box {
                 margin-top: 40px;
                 display: none;
-                &.active{
+                &.active {
                     display: block;
                 }
                 & .product-card {
@@ -305,9 +351,9 @@ body {
                         }
                     }
                     & .card-body {
-                        transition: .5s all;
+                        transition: 0.5s all;
                         border-radius: 0 0 20px 20px;
-                        & h5{
+                        & h5 {
                             font-size: 14px;
                             min-height: 32px;
                             color: #000;
@@ -350,7 +396,7 @@ body {
                     &:hover .product-icons {
                         opacity: 1;
                     }
-                    &:hover .card-body{
+                    &:hover .card-body {
                         background-color: #e7dbdd;
                     }
                 }
