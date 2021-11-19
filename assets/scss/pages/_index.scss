@@ -69,7 +69,6 @@ body {
                             padding: 23px;
                             z-index: 1;
                             border-radius: 10px;
-                            // transition: 0.7s all;
                             letter-spacing: 0.6px;
                             & a {
                                 transition: none;
@@ -92,6 +91,134 @@ body {
                                 font-weight: 400;
                                 &:hover {
                                     color: #0e0809;
+                                }
+                            }
+                        }
+                    }
+
+                    &.cart-box {
+                        position: relative;
+                        visibility: hidden;
+                        transition: 0.7s all;
+                        & a{
+                            transition: none;
+                        }
+                        &.active {
+                            visibility: visible;
+                        }
+                        & .cart-box-main {
+                            position: absolute;
+                            top: 62px;
+                            right: -40px;
+                            border-radius: 15px;
+                            width: 360px;
+                            background-color: #fff;
+                            padding: 15px;
+                            z-index: 1;
+                            color: #454545;
+                            & .my-cart-box {
+                                max-height: 50vh;
+                                overflow-y: auto;
+                                & .cart-box-items {
+                                    padding-top: 10px;
+                                    border-bottom: 1px solid #eaeaea;
+                                    display: flex;
+                                    align-items: center;
+                                    & .cart-box-img {
+                                        width: 25%;
+                                        border-right: 1px solid #eaeaea;
+                                        & a {
+                                            opacity: 1;
+                                            overflow: hidden;
+                                            & img {
+                                                width: 100%;
+                                                // height: auto;
+                                                &:hover {
+                                                    opacity: 0.8;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    & .cart-box-detail {
+                                        width: 75%;
+                                        padding: 0 10px;
+                                        display: flex;
+                                        align-items: center;
+                                        & .cart-product-name {
+                                            display: flex;
+                                            flex-direction: column;
+                                            & a {
+                                                font-size: 14px;
+                                                font-weight: 400;
+                                                color: #454545;
+                                                line-height: 1.2;
+                                                opacity: 1;
+                                                letter-spacing: 0;
+                                                &:hover {
+                                                    color: #a34253;
+                                                }
+                                            }
+                                            & span {
+                                                font-size: 13px;
+                                                margin: 5px 0;
+                                            }
+                                        }
+                                        & .remove-button {
+                                            color: #a34253;
+                                            border-color: #a34253;
+                                            cursor: pointer;
+                                        }
+                                    }
+                                }
+                            }
+                            & .cart-subtotal {
+                                display: flex;
+                                justify-content: space-between;
+                                padding: 15px;
+                                border-width: 1px 0;
+                                border-style: solid;
+                                border-color: #eaeaea;
+                                & .subtotal-text {
+                                    color: #454545;
+                                    font-size: 12px;
+                                    font-weight: 400;
+                                    text-transform: uppercase;
+                                    letter-spacing: 1px;
+                                }
+                                & .subtotal-price {
+                                    color: #454545;
+                                    font-size: 16px;
+                                    line-height: 1.3;
+                                    font-weight: 600;
+                                    letter-spacing: 1px;
+                                }
+                            }
+                            & .cart-buttons {
+                                padding: 15px;
+                                display: flex;
+                                justify-content: space-between;
+                                & .button {
+                                    color: #ffffff;
+                                    background-color: #a34253;
+                                    width: 48%;
+                                    padding: 16px 24px;
+                                    text-align: center;
+                                    letter-spacing: 2px;
+                                    opacity: 1;
+                                    border-radius: 25px;
+                                    font-size: 12px;
+                                    font-weight: 600;
+                                    text-transform: uppercase;
+                                    line-height: 1;
+                                    &.view-cart-button:hover{
+                                        background-color: #000;
+                                    }
+                                    &.checkout-button{
+                                        background-color: #000;
+                                        &:hover{
+                                            background-color: #a34253;
+                                        }
+                                    }
                                 }
                             }
                         }

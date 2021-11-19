@@ -1237,6 +1237,108 @@ body {
             font-weight: 400; }
             body header .header-fixed ul li.account-box-main .my-account-box span:hover {
               color: #0e0809; }
+      body header .header-fixed ul li.cart-box {
+        position: relative;
+        visibility: hidden;
+        transition: 0.7s all; }
+        body header .header-fixed ul li.cart-box a {
+          transition: none; }
+        body header .header-fixed ul li.cart-box.active {
+          visibility: visible; }
+        body header .header-fixed ul li.cart-box .cart-box-main {
+          position: absolute;
+          top: 62px;
+          right: -40px;
+          border-radius: 15px;
+          width: 360px;
+          background-color: #fff;
+          padding: 15px;
+          z-index: 1;
+          color: #454545; }
+          body header .header-fixed ul li.cart-box .cart-box-main .my-cart-box {
+            max-height: 50vh;
+            overflow-y: auto; }
+            body header .header-fixed ul li.cart-box .cart-box-main .my-cart-box .cart-box-items {
+              padding-top: 10px;
+              border-bottom: 1px solid #eaeaea;
+              display: flex;
+              align-items: center; }
+              body header .header-fixed ul li.cart-box .cart-box-main .my-cart-box .cart-box-items .cart-box-img {
+                width: 25%;
+                border-right: 1px solid #eaeaea; }
+                body header .header-fixed ul li.cart-box .cart-box-main .my-cart-box .cart-box-items .cart-box-img a {
+                  opacity: 1;
+                  overflow: hidden; }
+                  body header .header-fixed ul li.cart-box .cart-box-main .my-cart-box .cart-box-items .cart-box-img a img {
+                    width: 100%; }
+                    body header .header-fixed ul li.cart-box .cart-box-main .my-cart-box .cart-box-items .cart-box-img a img:hover {
+                      opacity: 0.8; }
+              body header .header-fixed ul li.cart-box .cart-box-main .my-cart-box .cart-box-items .cart-box-detail {
+                width: 75%;
+                padding: 0 10px;
+                display: flex;
+                align-items: center; }
+                body header .header-fixed ul li.cart-box .cart-box-main .my-cart-box .cart-box-items .cart-box-detail .cart-product-name {
+                  display: flex;
+                  flex-direction: column; }
+                  body header .header-fixed ul li.cart-box .cart-box-main .my-cart-box .cart-box-items .cart-box-detail .cart-product-name a {
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #454545;
+                    line-height: 1.2;
+                    opacity: 1;
+                    letter-spacing: 0; }
+                    body header .header-fixed ul li.cart-box .cart-box-main .my-cart-box .cart-box-items .cart-box-detail .cart-product-name a:hover {
+                      color: #a34253; }
+                  body header .header-fixed ul li.cart-box .cart-box-main .my-cart-box .cart-box-items .cart-box-detail .cart-product-name span {
+                    font-size: 13px;
+                    margin: 5px 0; }
+                body header .header-fixed ul li.cart-box .cart-box-main .my-cart-box .cart-box-items .cart-box-detail .remove-button {
+                  color: #a34253;
+                  border-color: #a34253;
+                  cursor: pointer; }
+          body header .header-fixed ul li.cart-box .cart-box-main .cart-subtotal {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+            border-width: 1px 0;
+            border-style: solid;
+            border-color: #eaeaea; }
+            body header .header-fixed ul li.cart-box .cart-box-main .cart-subtotal .subtotal-text {
+              color: #454545;
+              font-size: 12px;
+              font-weight: 400;
+              text-transform: uppercase;
+              letter-spacing: 1px; }
+            body header .header-fixed ul li.cart-box .cart-box-main .cart-subtotal .subtotal-price {
+              color: #454545;
+              font-size: 16px;
+              line-height: 1.3;
+              font-weight: 600;
+              letter-spacing: 1px; }
+          body header .header-fixed ul li.cart-box .cart-box-main .cart-buttons {
+            padding: 15px;
+            display: flex;
+            justify-content: space-between; }
+            body header .header-fixed ul li.cart-box .cart-box-main .cart-buttons .button {
+              color: #ffffff;
+              background-color: #a34253;
+              width: 48%;
+              padding: 16px 24px;
+              text-align: center;
+              letter-spacing: 2px;
+              opacity: 1;
+              border-radius: 25px;
+              font-size: 12px;
+              font-weight: 600;
+              text-transform: uppercase;
+              line-height: 1; }
+              body header .header-fixed ul li.cart-box .cart-box-main .cart-buttons .button.view-cart-button:hover {
+                background-color: #000; }
+              body header .header-fixed ul li.cart-box .cart-box-main .cart-buttons .button.checkout-button {
+                background-color: #000; }
+                body header .header-fixed ul li.cart-box .cart-box-main .cart-buttons .button.checkout-button:hover {
+                  background-color: #a34253; }
   body main {
     padding-top: 110px;
     width: 101%; }

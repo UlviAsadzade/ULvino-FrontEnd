@@ -2,26 +2,45 @@
 
 const accountIcon = document.querySelector('.fa-user')
 const accountBox = document.querySelector('.account-box-main')
+const cartIcon = document.querySelector('.fa-shopping-cart')
+const cartBox = document.querySelector('.cart-box')
 
 accountIcon.onmouseover=function(){
     accountBox.classList.add('active')
 
 }
-
 accountIcon.onmouseout=function(){
     accountBox.classList.remove('active')
 
 }
-
 accountBox.onmouseover=function(){
     accountBox.classList.add('active')
 
 }
-
 accountBox.onmouseout=function(){
     accountBox.classList.remove('active')
 
 }
+
+cartIcon.onmouseover=function(){
+    cartBox.classList.add('active')
+
+}
+cartIcon.onmouseout=function(){
+    cartBox.classList.remove('active')
+
+}
+cartBox.onmouseover=function(){
+    cartBox.classList.add('active')
+
+}
+cartBox.onmouseout=function(){
+    cartBox.classList.remove('active')
+
+}
+
+
+
 // Header section finish
 
 ///////////////////////////////////////
