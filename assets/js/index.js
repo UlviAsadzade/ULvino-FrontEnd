@@ -109,3 +109,54 @@ left.onclick = function () {
 
 
 // Testimonials section finish
+
+
+///////////////////////////////////////
+
+
+// Feature Products section start
+
+const targetButtons = Array.from(document.querySelectorAll('.target-buttons a'));
+const productsBoxes = Array.from(document.querySelectorAll('.products-box'));
+const clearActiveTargets = () => {
+    targetButtons.forEach(targetButton => {
+        targetButton.classList.remove('active');
+    });
+    productsBoxes.forEach(productsBox => {
+        productsBox.classList.remove('active');
+    });
+}
+targetButtons.forEach(targetButton => {
+    targetButton.onclick = function (e) {
+        e.preventDefault();
+        clearActiveTargets();
+        const targetId = targetButton.getAttribute('data-target')
+        const targetContent = document.getElementById(targetId);
+        targetButton.classList.add('active');
+        targetContent.classList.add('active');
+    }
+});
+
+
+
+
+
+
+const wishlistButtons = Array.from(document.querySelectorAll('.wishlist-button'))
+const heart = document.querySelector('.wishlist-button .far.fa-heart')
+
+for (let i = 0; i < wishlistButtons.length; i++) {
+    wishlistButtons[i].onclick=function(e){
+        e.preventDefault();
+        if(wishlistButtons[i].firstElementChild.className=="far fa-heart"){
+            wishlistButtons[i].firstElementChild.className="fas fa-heart"
+        }
+        else{
+            wishlistButtons[i].firstElementChild.className="far fa-heart"
+        }
+
+    }
+}
+
+
+// Feature products section finish
