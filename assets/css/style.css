@@ -1970,3 +1970,39 @@ body {
           text-transform: uppercase;
           font-size: 18px;
           margin-right: 60px; }
+  body .our-team {
+    padding: 60px 0;
+    text-align: center; }
+    body .our-team h2 {
+      margin: 20px 0 60px 0;
+      color: #000;
+      font-size: 26px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 600; }
+    body .our-team .team-box .team-img {
+      margin-bottom: 15px; }
+      body .our-team .team-box .team-img img {
+        max-width: 100%;
+        border-radius: 20px; }
+    body .our-team .team-box .team-person p {
+      color: #a34253;
+      font-weight: 700;
+      font-size: 14px;
+      margin-bottom: 0; }
+    body .our-team .team-box .team-person span {
+      font-size: 14px;
+      display: inline-block;
+      margin-bottom: 20px; }
+    body .our-team .team-box .team-person-social-media i {
+      font-size: 25px;
+      display: inline-block;
+      margin: 0 10px 0 10px; }
+      body .our-team .team-box .team-person-social-media i.fa-facebook {
+        color: #0d6efd; }
+      body .our-team .team-box .team-person-social-media i.fa-twitter {
+        color: #46d4fe; }
+      body .our-team .team-box .team-person-social-media i.fa-google-plus {
+        color: #de5a49; }
+      body .our-team .team-box .team-person-social-media i.fa-pinterest-p {
+        color: #d5001a; }
