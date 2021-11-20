@@ -1882,3 +1882,28 @@ body {
         font-weight: 600; }
     body .about-main .about-main-right img {
       width: 100%; }
+  body .about-numbers {
+    background-color: #2d3035;
+    color: #fff; }
+    body .about-numbers .about-numbers-box {
+      padding: 100px 0px;
+      text-align: center; }
+      body .about-numbers .about-numbers-box .about-numbers-icon {
+        margin-bottom: 20px; }
+        body .about-numbers .about-numbers-box .about-numbers-icon i {
+          color: #61ce70;
+          font-size: 50px; }
+      body .about-numbers .about-numbers-box h3 {
+        font-size: 30px;
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 40px;
+        margin-bottom: 20px; }
+      body .about-numbers .about-numbers-box p {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.5px; }
+      body .about-numbers .about-numbers-box.black {
+        background-color: #212327; }

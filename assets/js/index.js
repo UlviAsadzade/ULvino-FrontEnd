@@ -1,8 +1,8 @@
 // Header section start
 
-const accountIcon = document.querySelector('.fa-user')
+const accountIcon = document.querySelector('.header-fixed .fa-user')
 const accountBox = document.querySelector('.account-box-main')
-const cartIcon = document.querySelector('.fa-shopping-cart')
+const cartIcon = document.querySelector('.header-fixed .fa-shopping-cart')
 const cartBox = document.querySelector('.cart-box')
 
 accountIcon.onmouseover=function(){

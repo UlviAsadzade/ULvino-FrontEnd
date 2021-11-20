@@ -22,4 +22,37 @@ body {
             }
         }
     }
+
+    .about-numbers {
+        background-color: #2d3035;
+        color: #fff;
+        & .about-numbers-box {
+            padding: 100px 0px;
+            text-align: center;
+            & .about-numbers-icon {
+                margin-bottom: 20px;
+                & i {
+                    color: #61ce70;
+                    font-size: 50px;
+                }
+            }
+            & h3 {
+                font-size: 30px;
+                font-weight: 500;
+                text-transform: uppercase;
+                line-height: 40px;
+                margin-bottom: 20px;
+            }
+            & p {
+                color: #fff;
+                font-size: 14px;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.5px;
+            }
+            &.black{
+                background-color: #212327;
+            }
+        }
+    }
 }
