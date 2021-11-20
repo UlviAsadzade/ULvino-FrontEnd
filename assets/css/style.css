@@ -1145,18 +1145,24 @@ a {
 
 .page-title {
   background-color: #f0f0f0;
-  background-image: url(../images/page-title.jpg) !important;
   background-attachment: fixed;
   background-size: cover;
-  height: 340px;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  height: 420px;
+  text-align: center;
+  padding-top: 150px; }
   .page-title h1 {
     font-weight: 500;
     font-size: 48px;
     text-transform: uppercase;
-    color: #fff; }
+    color: #fff;
+    padding-bottom: 140px; }
+  .page-title .page-tab {
+    color: #fff;
+    font-weight: inherit; }
+    .page-title .page-tab a {
+      color: #fff; }
+    .page-title .page-tab i {
+      margin: 0 10px; }
 
 body {
   overflow-x: hidden;
@@ -1857,3 +1863,7 @@ body {
             text-decoration: underline; }
         body footer .footer-bottom .footer-bottom-box span {
           margin-left: 100px; }
+
+body {
+  overflow-x: hidden;
+  background-color: #fff; }
