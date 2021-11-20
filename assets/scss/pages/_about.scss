@@ -50,8 +50,36 @@ body {
                 text-transform: uppercase;
                 letter-spacing: 0.5px;
             }
-            &.black{
+            &.black {
                 background-color: #212327;
+            }
+        }
+    }
+
+    .why-choose-us {
+        padding: 50px 0;
+        text-align: center;
+        & h2 {
+            margin: 20px 0 60px 0;
+            color: #000;
+            font-size: 26px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+        & .why-choose-us-box {
+            & .why-choose-us-img {
+                margin-bottom: 15px;
+            }
+            & h3 {
+                font-size: 18px;
+                font-weight: 500;
+                color: #454545;
+                line-height: 1.2;
+                margin: 20px 0;
+            }
+            & p{
+                font-size: 14px;
             }
         }
     }
