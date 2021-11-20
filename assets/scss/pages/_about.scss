@@ -78,8 +78,62 @@ body {
                 line-height: 1.2;
                 margin: 20px 0;
             }
-            & p{
+            & p {
                 font-size: 14px;
+            }
+        }
+    }
+
+    .our-process {
+        padding: 60px 0;
+        text-align: center;
+        background-attachment: fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        color: #fff;
+        min-height: 600px;
+        & h2 {
+            margin: 20px 0 80px 0;
+            color: #fff;
+            font-size: 26px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+        & p {
+            width: 85%;
+            display: inline-block;
+            margin: 0 auto;
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 30px;
+        }
+
+        & .our-process-main {
+            display: flex;
+            & .process-box {
+                width: 20%;
+                & .process-icon {
+                    border-radius: 50%;
+                    background: rgba(255, 255, 255, 0.1);
+                    height: 150px;
+                    width: 150px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 30px;
+                    & i {
+                        font-size: 45px;
+                    }
+                    
+                }
+                & span {
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    font-size: 18px;
+                    margin-right: 60px;
+                }
             }
         }
     }
