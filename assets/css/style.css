@@ -1867,3 +1867,18 @@ body {
 body {
   overflow-x: hidden;
   background-color: #fff; }
+  body .about-main {
+    padding: 30px 0; }
+    body .about-main .about-main-left {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      body .about-main .about-main-left h2 {
+        margin: 20px 0 30px 0;
+        color: #000;
+        font-size: 26px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 600; }
+    body .about-main .about-main-right img {
+      width: 100%; }
