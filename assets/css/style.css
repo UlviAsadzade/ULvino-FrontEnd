@@ -2006,3 +2006,58 @@ body {
         color: #de5a49; }
       body .our-team .team-box .team-person-social-media i.fa-pinterest-p {
         color: #d5001a; }
+
+body {
+  overflow-x: hidden;
+  background-color: #fff; }
+  body .faq-main {
+    padding: 60px 0;
+    text-align: center; }
+    body .faq-main h2 {
+      font-size: 42px;
+      font-weight: 600;
+      text-transform: capitalize;
+      margin: 20px 0 40px 0; }
+    body .faq-main .accordion .item {
+      border: none;
+      margin-bottom: 30px; }
+    body .faq-main .t-p {
+      text-align: left;
+      padding: 14px; }
+    body .faq-main .accordion .item .item-header h2 button {
+      padding: 2px 14px; }
+    body .faq-main .accordion .item .item-header h2 button.btn.btn-link {
+      background-color: #a34253;
+      color: white;
+      border-radius: 0px;
+      font-family: "Poppins";
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 2.5;
+      text-decoration: none; }
+    body .faq-main .accordion .item .item-header {
+      border-bottom: none;
+      background: transparent;
+      padding: 0px;
+      margin: 2px; }
+    body .faq-main .accordion .item .item-header h2 button {
+      color: white;
+      font-size: 20px;
+      display: block;
+      width: 100%;
+      text-align: left; }
+    body .faq-main .accordion .item .item-header h2 i {
+      float: right;
+      font-size: 30px;
+      color: #fff;
+      width: 60px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px; }
+    body .faq-main button.btn.btn-link.collapsed i {
+      transform: rotate(0deg); }
+    body .faq-main button.btn.btn-link i {
+      transform: rotate(180deg);
+      transition: 0.5s; }
