@@ -2061,3 +2061,169 @@ body {
     body .faq-main button.btn.btn-link i {
       transform: rotate(180deg);
       transition: 0.5s; }
+
+body {
+  overflow-x: hidden;
+  background-color: #fff; }
+  body .shop-main {
+    padding: 60px 0; }
+    body .shop-main aside .shop-search .input-text {
+      color: #7e7e7e;
+      border: 1px solid #e5e5e5;
+      border-radius: 20px 0 0 20px; }
+    body .shop-main aside .shop-search .input-text:focus {
+      outline: none;
+      box-shadow: 0 0 10px #a34253; }
+    body .shop-main aside .shop-search .btn-search {
+      background-color: #a34253;
+      color: #fff;
+      border-radius: 0 20px 20px 0; }
+      body .shop-main aside .shop-search .btn-search:focus {
+        box-shadow: 0 0 10px #a34253; }
+    body .shop-main aside .shop-search .form-control {
+      border: 1px solid #7e7e7e; }
+    body .shop-main aside .shop-categories {
+      text-align: left;
+      border: 1px solid #e5e5e5;
+      border-radius: 12px;
+      padding: 15px;
+      margin-top: 30px; }
+      body .shop-main aside .shop-categories h4 {
+        margin-bottom: 20px;
+        color: #a34253;
+        font-weight: 400; }
+      body .shop-main aside .shop-categories ul {
+        padding-left: 0; }
+        body .shop-main aside .shop-categories ul li {
+          margin-bottom: 10px; }
+          body .shop-main aside .shop-categories ul li a {
+            font-size: 14px;
+            color: #454545;
+            letter-spacing: 0.8px; }
+    body .shop-main aside .shop-rates {
+      text-align: left;
+      border: 1px solid #e5e5e5;
+      border-radius: 12px;
+      padding: 15px;
+      margin-top: 30px; }
+      body .shop-main aside .shop-rates h4 {
+        margin-bottom: 20px;
+        color: #a34253;
+        font-weight: 400; }
+      body .shop-main aside .shop-rates .rate-box {
+        display: flex;
+        margin-bottom: 10px; }
+        body .shop-main aside .shop-rates .rate-box input {
+          margin-right: 10px;
+          margin-top: 8px; }
+        body .shop-main aside .shop-rates .rate-box .product-rate {
+          margin-bottom: 10px; }
+          body .shop-main aside .shop-rates .rate-box .product-rate .fas {
+            color: #f9bf00; }
+          body .shop-main aside .shop-rates .rate-box .product-rate .far {
+            color: #666666; }
+    body .shop-main aside .shop-price-range {
+      text-align: left;
+      border: 1px solid #e5e5e5;
+      border-radius: 12px;
+      padding: 15px;
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column; }
+      body .shop-main aside .shop-price-range h4 {
+        margin-bottom: 20px;
+        color: #a34253;
+        font-weight: 400; }
+      body .shop-main aside .shop-price-range .price-range-box {
+        color: #454545;
+        letter-spacing: 0.8px;
+        margin-bottom: 10px; }
+        body .shop-main aside .shop-price-range .price-range-box input {
+          margin-right: 10px; }
+    body .shop-main .shop-products .product-card {
+      margin-bottom: 30px;
+      position: relative;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 0 8px #a34253; }
+      body .shop-main .shop-products .product-card .card-img {
+        border-radius: 20px 20px 0 0;
+        border-bottom: 1px solid #e5e5e5;
+        overflow: hidden; }
+        body .shop-main .shop-products .product-card .card-img img {
+          width: 100%;
+          border-radius: 20px 20px 0 0;
+          transition: all 0.5s;
+          transform: scale(1); }
+          body .shop-main .shop-products .product-card .card-img img:hover {
+            transform: scale(1.1); }
+      body .shop-main .shop-products .product-card .card-body {
+        transition: 0.5s all;
+        border-radius: 0 0 20px 20px; }
+        body .shop-main .shop-products .product-card .card-body h5 {
+          font-size: 14px;
+          min-height: 32px;
+          color: #000;
+          font-weight: 600;
+          font-style: inherit;
+          letter-spacing: inherit;
+          text-transform: uppercase; }
+        body .shop-main .shop-products .product-card .card-body .product-rate {
+          margin-bottom: 10px; }
+          body .shop-main .shop-products .product-card .card-body .product-rate .fas {
+            color: #f9bf00; }
+        body .shop-main .shop-products .product-card .card-body .product-price del {
+          font-size: 14px; }
+        body .shop-main .shop-products .product-card .card-body .product-price span {
+          color: #a34253;
+          font-size: 18px;
+          font-weight: 600; }
+      body .shop-main .shop-products .product-card .product-icons {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 5%;
+        right: 8%;
+        opacity: 0;
+        transition: 0.5s all; }
+        body .shop-main .shop-products .product-card .product-icons i {
+          color: #a34253;
+          font-size: 24px;
+          margin-bottom: 14px; }
+      body .shop-main .shop-products .product-card:hover .product-icons {
+        opacity: 1; }
+      body .shop-main .shop-products .product-card:hover .card-body {
+        background-color: #e7dbdd; }
+    body .shop-main .pagination {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px; }
+      body .shop-main .pagination .pagination-outer {
+        text-align: center; }
+      body .shop-main .pagination .pagination li a.page-link {
+        color: #fff;
+        background-color: #0a3d62;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 33px;
+        height: 33px;
+        width: 33px;
+        padding: 0;
+        margin: 0 5px;
+        border-radius: 50%;
+        border: none;
+        transition: all 0.5s ease 0s; }
+        body .shop-main .pagination .pagination li a.page-link:focus {
+          box-shadow: none; }
+      body .shop-main .pagination .pagination li a.page-link:hover,
+      body .shop-main .pagination .pagination li a.page-link:focus,
+      body .shop-main .pagination .pagination li.active a.page-link:hover,
+      body .shop-main .pagination .pagination li.active a.page-link {
+        color: #fff;
+        background: #a34253; }
+      body .shop-main .pagination .pagination li:first-child a.page-link,
+      body .shop-main .pagination .pagination li:last-child a.page-link {
+        color: #a34253;
+        background-color: #fff;
+        line-height: 27px;
+        border: 2px solid #a34253; }
