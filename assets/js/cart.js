@@ -1,5 +1,7 @@
 const removeButtons = Array.from(document.querySelectorAll(".remove-product-icon"))
 const cartBoxes = Array.from(document.querySelectorAll(".cart-page-box-item"))
+const cartBoxBottom = document.querySelector(".cart-page-box-bottom")
+const cartEmptyBox = document.querySelector(".cart-empty-box")
 const minus = Array.from(document.querySelectorAll(".minus"))
 const plus = Array.from(document.querySelectorAll(".plus"))
 const subtotals = Array.from(document.querySelectorAll(".subtotal"))
@@ -15,7 +17,6 @@ function sumOfSubtotals(arr) {
 }
 sumOfSubtotals(subtotals);
 totalAmount.lastElementChild.innerHTML = prdtotal.toFixed(2);
-console.log(prdtotal);
 prdtotal = 0
 
 removeButtons.forEach(removeButton => {
@@ -23,11 +24,17 @@ removeButtons.forEach(removeButton => {
         e.preventDefault();
         const targetId = removeButton.getAttribute('data-target')
         const targetContent = document.getElementById(targetId);
-        targetContent.classList.add('hidden');
+        targetContent.remove();
+        const subtotals = Array.from(document.querySelectorAll(".subtotal"))
         sumOfSubtotals(subtotals);
         totalAmount.lastElementChild.innerHTML = prdtotal.toFixed(2);
-        console.log(prdtotal);
-        prdtotal = 0
+        prdtotal = 0;
+        if (totalAmount.lastElementChild.innerHTML == 0) {
+            cartBoxBottom.remove();
+            cartEmptyBox.classList.add("active")
+        }
+        console.log(totalAmount.lastElementChild.innerHTML);
+
     }
 });
 
