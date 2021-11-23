@@ -2254,7 +2254,8 @@ body {
           body .cart-main .cart-page-box .cart-page-box-item .cart-page-product-name:hover {
             color: #a34253; }
         body .cart-main .cart-page-box .cart-page-box-item .cart-page-product-price {
-          color: #a34253; }
+          color: #a34253;
+          margin-bottom: 0; }
         body .cart-main .cart-page-box .cart-page-box-item .cart-page-quantity {
           display: flex;
           justify-content: center;
@@ -2305,7 +2306,7 @@ body {
           text-align: center;
           letter-spacing: 0.1em;
           line-height: 1;
-          transition: .3s all; }
+          transition: 0.3s all; }
           body .cart-main .cart-page-box .cart-page-box-bottom .button:hover {
             background-color: #000; }
         body .cart-main .cart-page-box .cart-page-box-bottom .cart-total-amount {
@@ -2321,3 +2322,126 @@ body {
             line-height: 2.2; }
           body .cart-main .cart-page-box .cart-page-box-bottom .cart-total-amount span:first-child {
             margin-left: 10px; }
+      body .cart-main .cart-page-box .cart-empty-box {
+        display: none; }
+        body .cart-main .cart-page-box .cart-empty-box.active {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          margin: 20px 0; }
+        body .cart-main .cart-page-box .cart-empty-box .button {
+          padding: 16px 20px;
+          border-radius: 50px;
+          color: #fff;
+          background-color: #a34253;
+          font-size: 14px;
+          font-weight: 600;
+          text-align: center;
+          letter-spacing: 0.1em;
+          line-height: 1;
+          transition: 0.3s all; }
+          body .cart-main .cart-page-box .cart-empty-box .button:hover {
+            background-color: #000; }
+
+body {
+  overflow-x: hidden;
+  background-color: #fff; }
+  body .wishlist-main {
+    padding: 60px 0;
+    font-size: 16px; }
+    body .wishlist-main .wishlist-page-box {
+      border: 1px solid #e5e5e5;
+      border-radius: 10px; }
+      body .wishlist-main .wishlist-page-box .wishlist-page-box-item:not(:last-child) {
+        border-bottom: 1px solid #e4e4e4; }
+      body .wishlist-main .wishlist-page-box .wishlist-page-box-item {
+        align-items: center;
+        text-align: center;
+        margin: 10px 0; }
+        body .wishlist-main .wishlist-page-box .wishlist-page-box-item .wishlist-page-img img {
+          max-width: 60px; }
+        body .wishlist-main .wishlist-page-box .wishlist-page-box-item .wishlist-page-product-name {
+          color: #454545;
+          transition: all 0.3s ease;
+          font-weight: 400;
+          font-size: 16px;
+          transition: 0.3s all; }
+          body .wishlist-main .wishlist-page-box .wishlist-page-box-item .wishlist-page-product-name:hover {
+            color: #a34253; }
+        body .wishlist-main .wishlist-page-box .wishlist-page-box-item .wishlist-page-product-price {
+          color: #a34253;
+          margin-bottom: 0; }
+        body .wishlist-main .wishlist-page-box .wishlist-page-box-item .product-status {
+          color: green;
+          margin-bottom: 0; }
+        body .wishlist-main .wishlist-page-box .wishlist-page-box-item .button {
+          padding: 10px;
+          border-radius: 50px;
+          color: #fff;
+          background-color: #000;
+          font-size: 12px;
+          text-align: center;
+          letter-spacing: 0.1em;
+          line-height: 1;
+          transition: 0.3s all; }
+          body .wishlist-main .wishlist-page-box .wishlist-page-box-item .button:hover {
+            background-color: #a34253; }
+        body .wishlist-main .wishlist-page-box .wishlist-page-box-item .remove-product-icon i {
+          color: #454545;
+          transition: 0.3s all;
+          font-size: 20px; }
+          body .wishlist-main .wishlist-page-box .wishlist-page-box-item .remove-product-icon i:hover {
+            color: #a34253; }
+        body .wishlist-main .wishlist-page-box .wishlist-page-box-item.hidden {
+          display: none; }
+      body .wishlist-main .wishlist-page-box .wishlist-page-box-bottom {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 20px 0; }
+        body .wishlist-main .wishlist-page-box .wishlist-page-box-bottom .button {
+          padding: 16px 20px;
+          border-radius: 50px;
+          color: #fff;
+          background-color: #a34253;
+          font-size: 14px;
+          font-weight: 600;
+          text-align: center;
+          letter-spacing: 0.1em;
+          line-height: 1;
+          transition: 0.3s all; }
+          body .wishlist-main .wishlist-page-box .wishlist-page-box-bottom .button:hover {
+            background-color: #000; }
+        body .wishlist-main .wishlist-page-box .wishlist-page-box-bottom .wishlist-total-amount {
+          display: flex; }
+          body .wishlist-main .wishlist-page-box .wishlist-page-box-bottom .wishlist-total-amount p {
+            font-size: 24px;
+            color: #000;
+            font-weight: 600; }
+          body .wishlist-main .wishlist-page-box .wishlist-page-box-bottom .wishlist-total-amount span {
+            color: #a34253;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 2.2; }
+          body .wishlist-main .wishlist-page-box .wishlist-page-box-bottom .wishlist-total-amount span:first-child {
+            margin-left: 10px; }
+      body .wishlist-main .wishlist-page-box .wishlist-empty-box {
+        display: none; }
+        body .wishlist-main .wishlist-page-box .wishlist-empty-box.active {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          margin: 20px 0; }
+        body .wishlist-main .wishlist-page-box .wishlist-empty-box .button {
+          padding: 16px 20px;
+          border-radius: 50px;
+          color: #fff;
+          background-color: #a34253;
+          font-size: 14px;
+          font-weight: 600;
+          text-align: center;
+          letter-spacing: 0.1em;
+          line-height: 1;
+          transition: 0.3s all; }
+          body .wishlist-main .wishlist-page-box .wishlist-empty-box .button:hover {
+            background-color: #000; }
