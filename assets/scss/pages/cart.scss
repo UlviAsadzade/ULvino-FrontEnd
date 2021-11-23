@@ -110,8 +110,11 @@ body {
                         color: #a34253;
                         font-size: 20px;
                         font-weight: 600;
-                        margin-left: 10px;
                         line-height: 2.2;
+                    }
+                    & span:first-child{
+                        margin-left: 10px;
+
                     }
                 }
             }

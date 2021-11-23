@@ -146,7 +146,7 @@
         <div class="container">
             <div class="row cart-page-box">
                 <div class="container">
-                    <div class=" row cart-page-box-item ">
+                    <div class=" row cart-page-box-item" id="1">
                         <div class="col-1">
                             <div class="cart-page-img">
                                 <a href="">
@@ -160,26 +160,26 @@
                             </a>
                         </div>
                         <div class="col-2">
-                            <p class="cart-page-product-price">$40.00</p>
+                            <p class="cart-page-product-price"><span>$</span> <span>40.00</span></p>
                         </div>
                         <div class="col-2">
                             <div class="cart-page-quantity">
-                                <a href="" class="minus">-</a>
-                                <span>1</span>
+                                <a href="" class="minus" data-target="m1">-</a>
+                                <span class="quantity-count">1</span>
                                 <a href="" class="plus">+</a>
                             </div>
                         </div>
                         <div class="col-2">
-                            <p class="cart-page-product-price">$40.00</p>
+                            <p class="cart-page-product-price subtotal" id="m1"> <span>$</span> <span>40.00</span></p>
                         </div>
                         <div class="col-1">
-                            <a href="" class="remove-product-icon" >
+                            <a href="" class="remove-product-icon" data-target="1" >
                                 <i class="far fa-trash-alt"></i>
                             </a>
                         </div>
                     </div>
 
-                    <div class=" row cart-page-box-item ">
+                    <div class=" row cart-page-box-item " id="2">
                         <div class="col-1">
                             <div class="cart-page-img">
                                 <a href="">
@@ -193,26 +193,26 @@
                             </a>
                         </div>
                         <div class="col-2">
-                            <p class="cart-page-product-price">$60.00</p>
+                            <p class="cart-page-product-price"><span>$</span> <span>60.00</span></p>
                         </div>
                         <div class="col-2">
                             <div class="cart-page-quantity">
                                 <a href="" class="minus">-</a>
-                                <span>2</span>
+                                <span class="quantity-count">1</span>
                                 <a href="" class="plus">+</a>
                             </div>
                         </div>
                         <div class="col-2">
-                            <p class="cart-page-product-price">$120.00</p>
+                            <p class="cart-page-product-price subtotal"><span>$</span> <span>60.00</span></p>
                         </div>
                         <div class="col-1">
-                            <a href="" class="remove-product-icon" >
+                            <a href="" class="remove-product-icon" data-target="2">
                                 <i class="far fa-trash-alt"></i>
                             </a>
                         </div>
                     </div>
 
-                    <div class=" row cart-page-box-item ">
+                    <div class=" row cart-page-box-item " id="3">
                         <div class="col-1">
                             <div class="cart-page-img">
                                 <a href="">
@@ -226,20 +226,20 @@
                             </a>
                         </div>
                         <div class="col-2">
-                            <p class="cart-page-product-price">$55.00</p>
+                            <p class="cart-page-product-price"><span>$</span> <span>55.00</span></p>
                         </div>
                         <div class="col-2">
                             <div class="cart-page-quantity">
                                 <a href="" class="minus">-</a>
-                                <span>1</span>
+                                <span class="quantity-count">1</span>
                                 <a href="" class="plus">+</a>
                             </div>
                         </div>
                         <div class="col-2">
-                            <p class="cart-page-product-price">$55.00</p>
+                            <p class="cart-page-product-price subtotal"><span>$</span> <span>55.00</span></p>
                         </div>
                         <div class="col-1">
-                            <a href="" class="remove-product-icon" >
+                            <a href="" class="remove-product-icon" data-target="3">
                                 <i class="far fa-trash-alt"></i>
                             </a>
                         </div>
@@ -250,7 +250,7 @@
                         <a href="" class="button ">Go Checkouts</a>
                         <div class=" cart-total-amount">
                             <p>Total:</p>
-                            <span>$215.00</span>
+                            <span class="total-amount"><span>$</span> <span>155.00</span></span>
                         </div>
                     </div>
 
@@ -357,6 +357,7 @@
 
 
     <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/cart.js"></script>
     <script src="https://kit.fontawesome.com/b26885e958.js" crossorigin="anonymous"></script>
     <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

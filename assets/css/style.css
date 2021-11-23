@@ -2318,5 +2318,6 @@ body {
             color: #a34253;
             font-size: 20px;
             font-weight: 600;
-            margin-left: 10px;
             line-height: 2.2; }
+          body .cart-main .cart-page-box .cart-page-box-bottom .cart-total-amount span:first-child {
+            margin-left: 10px; }
