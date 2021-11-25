@@ -1,0 +1,131 @@
+body {
+    overflow-x: hidden;
+    background-color: #fff;
+    & .checkout-main {
+        padding: 60px 0;
+        & h2 {
+            color: #454545;
+            padding-bottom: 8px;
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+            text-transform: uppercase;
+            letter-spacing: 0.6px;
+            border-color: #eaeaea;
+            font-size: 22px;
+        }
+        & .checkout-left {
+            padding: 30px;
+            border: 2px solid #eaeaea;
+            background-color: #fff;
+            width: 49%;
+            margin-right: 20px;
+            & .user-detail-box {
+                & .user-form-item {
+                    margin-bottom: 15px;
+                    font-size: 14px;
+                    & label {
+                        margin-bottom: 4px;
+                        & span {
+                            color: #e42234;
+                        }
+                    }
+                    & input {
+                        background-color: #f7f7f7;
+                        min-height: 40px;
+                        width: 100%;
+                        font-size: 14px;
+                        padding: 6px 12px;
+                        border: 1px solid #ddd;
+                        border-radius: 3px;
+                        outline: none;
+                    }
+                }
+                & .order-notes {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 14px;
+                    & textarea {
+                        background-color: #f7f7f7;
+                        padding: 6px 12px;
+                        border: 1px solid #ddd;
+                        border-radius: 3px;
+                        outline: none;
+                        height: 150px;
+                    }
+                }
+            }
+        }
+        & .checkout-right {
+            padding: 30px;
+            border: 2px solid #eaeaea;
+            background-color: #fff;
+            width: 49%;
+            & table {
+                background-color: #f7f7f7;
+                margin: 20px 0;
+                width: 100%;
+                & .product-name {
+                    border-right: 1px solid #ebebeb;
+                    border-bottom: 1px solid #ebebeb;
+                    font-size: 14px;
+                    letter-spacing: 1px;
+                    padding: 20px;
+                    width: 50%;
+                }
+                & .product-total {
+                    border-bottom: 1px solid #ebebeb;
+                    font-size: 14px;
+                    letter-spacing: 1px;
+                    padding: 20px;
+                    &.product-price {
+                        color: #a34253;
+                    }
+                }
+                & thead {
+                    text-transform: uppercase;
+                    color: #454545;
+                    & .product-name {
+                        font-weight: 600;
+                        font-size: 15px;
+                    }
+                    & .product-total {
+                        font-weight: 600;
+                        font-size: 15px;
+                    }
+                }
+                & tfoot {
+                    text-transform: uppercase;
+                    color: #454545;
+                    & .product-name {
+                        font-weight: 600;
+                        font-size: 15px;
+                    }
+                    & .product-total {
+                        font-weight: 600;
+                        font-size: 15px;
+                    }
+                }
+            }
+            & .order-buy {
+                & button {
+                    border-radius: 55px;
+                    width: 100%;
+                    font-size: 15px;
+                    line-height: 1.6;
+                    padding: 16px 20px;
+                    outline: none;
+                    background-color: #a34253;
+                    color: #fff;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    border: 0;
+                    letter-spacing: 0.1em;
+                    transition: .3s all;
+                    &:hover{
+                        background-color: #000;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1878,6 +1878,8 @@ body {
           line-height: 1.2;
           text-transform: capitalize;
           margin-left: 180px; }
+          body .modal .modal-content .modal-header h5.create-account {
+            margin-left: 115px; }
       body .modal .modal-content .modal-body {
         padding: 20px 20%; }
         body .modal .modal-content .modal-body form .form-imput-item {
@@ -1940,7 +1942,8 @@ body {
           border: 0;
           padding: 12px 30px;
           text-align: center;
-          transition: .3s all; }
+          transition: .3s all;
+          cursor: pointer; }
           body .modal .modal-content .modal-footer a:hover {
             background-color: #a34253; }
 
@@ -2525,3 +2528,108 @@ body {
           transition: 0.3s all; }
           body .wishlist-main .wishlist-page-box .wishlist-empty-box .button:hover {
             background-color: #000; }
+
+body {
+  overflow-x: hidden;
+  background-color: #fff; }
+  body .checkout-main {
+    padding: 60px 0; }
+    body .checkout-main h2 {
+      color: #454545;
+      padding-bottom: 8px;
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      border-color: #eaeaea;
+      font-size: 22px; }
+    body .checkout-main .checkout-left {
+      padding: 30px;
+      border: 2px solid #eaeaea;
+      background-color: #fff;
+      width: 49%;
+      margin-right: 20px; }
+      body .checkout-main .checkout-left .user-detail-box .user-form-item {
+        margin-bottom: 15px;
+        font-size: 14px; }
+        body .checkout-main .checkout-left .user-detail-box .user-form-item label {
+          margin-bottom: 4px; }
+          body .checkout-main .checkout-left .user-detail-box .user-form-item label span {
+            color: #e42234; }
+        body .checkout-main .checkout-left .user-detail-box .user-form-item input {
+          background-color: #f7f7f7;
+          min-height: 40px;
+          width: 100%;
+          font-size: 14px;
+          padding: 6px 12px;
+          border: 1px solid #ddd;
+          border-radius: 3px;
+          outline: none; }
+      body .checkout-main .checkout-left .user-detail-box .order-notes {
+        display: flex;
+        flex-direction: column;
+        margin-top: 14px; }
+        body .checkout-main .checkout-left .user-detail-box .order-notes textarea {
+          background-color: #f7f7f7;
+          padding: 6px 12px;
+          border: 1px solid #ddd;
+          border-radius: 3px;
+          outline: none;
+          height: 150px; }
+    body .checkout-main .checkout-right {
+      padding: 30px;
+      border: 2px solid #eaeaea;
+      background-color: #fff;
+      width: 49%; }
+      body .checkout-main .checkout-right table {
+        background-color: #f7f7f7;
+        margin: 20px 0;
+        width: 100%; }
+        body .checkout-main .checkout-right table .product-name {
+          border-right: 1px solid #ebebeb;
+          border-bottom: 1px solid #ebebeb;
+          font-size: 14px;
+          letter-spacing: 1px;
+          padding: 20px;
+          width: 50%; }
+        body .checkout-main .checkout-right table .product-total {
+          border-bottom: 1px solid #ebebeb;
+          font-size: 14px;
+          letter-spacing: 1px;
+          padding: 20px; }
+          body .checkout-main .checkout-right table .product-total.product-price {
+            color: #a34253; }
+        body .checkout-main .checkout-right table thead {
+          text-transform: uppercase;
+          color: #454545; }
+          body .checkout-main .checkout-right table thead .product-name {
+            font-weight: 600;
+            font-size: 15px; }
+          body .checkout-main .checkout-right table thead .product-total {
+            font-weight: 600;
+            font-size: 15px; }
+        body .checkout-main .checkout-right table tfoot {
+          text-transform: uppercase;
+          color: #454545; }
+          body .checkout-main .checkout-right table tfoot .product-name {
+            font-weight: 600;
+            font-size: 15px; }
+          body .checkout-main .checkout-right table tfoot .product-total {
+            font-weight: 600;
+            font-size: 15px; }
+      body .checkout-main .checkout-right .order-buy button {
+        border-radius: 55px;
+        width: 100%;
+        font-size: 15px;
+        line-height: 1.6;
+        padding: 16px 20px;
+        outline: none;
+        background-color: #a34253;
+        color: #fff;
+        font-weight: 600;
+        text-transform: uppercase;
+        border: 0;
+        letter-spacing: 0.1em;
+        transition: .3s all; }
+        body .checkout-main .checkout-right .order-buy button:hover {
+          background-color: #000; }

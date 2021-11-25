@@ -21,8 +21,8 @@
                 <div class="row"">
                     <ul>
                         <li>
-                            <a href="./account.html">
-                                <i class=" fas fa-user"></i>
+                            <a href=" ./account.html">
+                    <i class=" fas fa-user"></i>
                     </a>
                     <a href="./wishlist.html">
                         <i class="far fa-heart"></i>
@@ -35,10 +35,10 @@
                             <!-- <a href="">
                                     <span>Ulvi Asadzade</span>
                                 </a> -->
-                            <a href="./login.html">
+                            <a data-bs-toggle="modal" data-bs-target="#loginModal">
                                 <span>Login</span>
                             </a>
-                            <a href="./register.html">
+                            <a data-bs-toggle="modal" data-bs-target="#registerModal">
                                 <span>Register</span>
                             </a>
                         </div>
@@ -529,6 +529,80 @@
         </div>
 
     </footer>
+
+
+    <!-- Modal for Login start -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Log In</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="form-imput-item">
+                            <input type="text" placeholder="Username">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="form-imput-item">
+                            <input type="password" placeholder="Password">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <div class="form-remember-me">
+                            <label for="">
+                                <input type="checkbox" name="" id="">
+                                Remember Me
+                            </label>
+                        </div>
+                        <button type="submit">LOGIN</button>
+                        <a href="" class="forgot-password">Forgot your password?</a>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <p>Not a member?</p>
+                    <a data-bs-toggle="modal" data-bs-target="#registerModal">REGISTER</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for Login finish -->
+
+
+    <!-- Modal for Register start -->
+    <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModallLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title create-account" id="registerModalLabel">Create An Account</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="form-imput-item">
+                            <input type="text" placeholder="Your username">
+                        </div>
+                        <div class="form-imput-item">
+                            <input type="email" placeholder="Your email">
+                        </div>
+                        <div class="form-imput-item">
+                            <input type="password" placeholder="Password">
+                        </div>
+                        <div class="form-imput-item">
+                            <input type="password" placeholder="Confirm Password">
+                        </div>
+                        <button type="submit">REGISTER</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <p>Already a member?</p>
+                    <a data-bs-toggle="modal" data-bs-target="#loginModal">SIGN IN</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for Register finish -->
+
 
 
     <script src="./assets/js/main.js"></script>

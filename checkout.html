@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" href="https://demo-40.woovinapro.com/wp-content/uploads/2020/07/favi-icon.png" sizes="192x192">
-    <title>Wishlist</title>
+    <title>Checkout</title>
 </head>
 
 <body>
@@ -132,118 +132,104 @@
     <section class="page-title" style="background-image: url('./assets/images/page-title.jpg');">
         <div class="container">
             <div class="row">
-                <h1>WISHLIST</h1>
+                <h1>CHECKOUT</h1>
                 <div class="page-tab">
                     <a href="./index.html">HOME</a>
                     <i class="fas fa-angle-right"></i>
-                    <span>WISHLIST</span>
+                    <span>CHECKOUT</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="wishlist-main">
+    <section class="checkout-main">
         <div class="container">
-            <div class="row wishlist-page-box">
-                <div class="container">
-                    <div class=" row wishlist-page-box-item" id="1">
-                        <div class="col-1">
-                            <div class="wishlist-page-img">
-                                <a href="">
-                                    <img src="./assets/images/wine-1.jpg" alt="">
-                                </a>
+            <div class="row">
+                <div class="col-6 checkout-left">
+                    <h2>BILLING DETAILS</h2>
+                    <div class="user-detail-box">
+                        <form action="" id="order-form">
+                            <div class="row">
+                                <div class="col-6 user-form-item">
+                                    <label for="">
+                                        Full Name
+                                        <span>*</span>
+                                    </label>
+                                    <input type="text" name="" id="" placeholder="Full Name">
+                                </div>
+                                <div class="col-6 user-form-item">
+                                    <label for="">
+                                        Email
+                                        <span>*</span>
+                                    </label>
+                                    <input type="email" name="" id="" placeholder="Email">
+                                </div>
+                                <div class="col-6 user-form-item">
+                                    <label for="">
+                                        Phone Number
+                                        <span>*</span>
+                                    </label>
+                                    <input type="number" name="" id="" placeholder="Phone number">
+                                </div>
+                                <div class="col-6 user-form-item">
+                                    <label for="">
+                                        City
+                                        <span>*</span>
+                                    </label>
+                                    <input type="text" name="" id="" placeholder="City">
+                                </div>
+                                <div class="col-12 user-form-item">
+                                    <label for="">
+                                        Adress
+                                        <span>*</span>
+                                    </label>
+                                    <input type="text" name="" id="" placeholder="Adress">
+                                </div>
+                                
                             </div>
-                        </div>
-                        <div class="col-4">
-                            <a href="" class="wishlist-page-product-name">
-                                Condimentum Posuere Consectetur Urna
-                            </a>
-                        </div>
-                        <div class="col-2">
-                            <p class="wishlist-page-product-price"><span>$</span> <span>40.00</span></p>
-                        </div>
-                        <div class="col-2" >
-                            <p class="product-status">In Stock</p>
-                        </div>
-                        <div class="col-2">
-                            <a href="./checkout.html" class="button ">Add to Cart</a>
-                        </div>
-                        <div class="col-1">
-                            <a href="" class="remove-product-icon" data-target="1" >
-                                <i class="far fa-trash-alt"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class=" row wishlist-page-box-item" id="2">
-                        <div class="col-1">
-                            <div class="wishlist-page-img">
-                                <a href="">
-                                    <img src="./assets/images/wine-2.jpg" alt="">
-                                </a>
+                            <div class="order-notes user-form-item">
+                                <label for="">Order Notes</label>
+                                <textarea name="" id="" cols="30" rows="10" placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
                             </div>
-                        </div>
-                        <div class="col-4">
-                            <a href="" class="wishlist-page-product-name">
-                                Convallis Quam Sit Vitae Sodales
-                            </a>
-                        </div>
-                        <div class="col-2">
-                            <p class="wishlist-page-product-price"><span>$</span> <span>60.00</span></p>
-                        </div>
-                        <div class="col-2" >
-                            <p class="product-status">In Stock</p>
-                        </div>
-                        <div class="col-2">
-                            <a href="./checkout.html" class="button ">Add to Cart</a>
-                        </div>
-                        <div class="col-1">
-                            <a href="" class="remove-product-icon" data-target="2" >
-                                <i class="far fa-trash-alt"></i>
-                            </a>
-                        </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-6 checkout-right">
+                    <h2>YOUR ORDER</h2>
+                    <table class="order-detail-box">
+                        <thead>
+                            <tr>
+                                <th class="product-name">Product</th>
+                                <th class="product-total">Subtotal</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="order-product">
+                                <td class="product-name">Condimentum Posuere Consectetur Urna  × 1</td>
+                                <td class="product-price product-total">$40.00</td>
+                            </tr>
+                            <tr class="order-product">
+                                <td class="product-name">Convallis Quam Sit Vitae Sodales  × 3</td>
+                                <td class="product-price product-total">$60.00</td>
+                            </tr>
+                            <tr class="order-product">
+                                <td class="product-name">Donec Eu Libero Ac Dapibus Urna  × 1</td>
+                                <td class="product-price product-total">$13.00</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr class="order-total">
+                                <th class="product-name">Total</th>
+                                <td class="product-total product-price">$113.00</td>
+                            </tr>
+                        </tfoot>
+
+                    </table>
+                    <div class="order-buy">
+                        <button type="submit" form="order-form">BUY</button>
                     </div>
 
-                    <div class=" row wishlist-page-box-item" id="3">
-                        <div class="col-1">
-                            <div class="wishlist-page-img">
-                                <a href="">
-                                    <img src="./assets/images/wine-3.jpg"  alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <a href="" class="wishlist-page-product-name">
-                                Donec Eu Libero Ac Dapibus Urna
-                            </a>
-                        </div>
-                        <div class="col-2">
-                            <p class="wishlist-page-product-price"><span>$</span> <span>55.00</span></p>
-                        </div>
-                        <div class="col-2" >
-                            <p class="product-status">In Stock</p>
-                        </div>
-                        <div class="col-2">
-                            <a href="./checkout.html" class="button ">Add to Cart</a>
-                        </div>
-                        <div class="col-1">
-                            <a href="" class="remove-product-icon" data-target="3" >
-                                <i class="far fa-trash-alt"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="wishlist-page-box-bottom">
-                        <a href="./shop.html" class="button ">Continue Shopping</a>
-                        <a href="./cart.html" class="button ">Go Cart</a>
-                    </div>
-
-                    <div class="wishlist-empty-box">
-                        <h2>Your Wishlist is Empty</h2>
-                        <a href="./shop.html" class="button ">Go Shop</a>
-                    </div>
-
-                    
                 </div>
             </div>
         </div>
@@ -417,7 +403,7 @@
 
 
     <script src="./assets/js/main.js"></script>
-    <script src="./assets/js/wishlist.js"></script>
+    <script src="./assets/js/cart.js"></script>
     <script src="https://kit.fontawesome.com/b26885e958.js" crossorigin="anonymous"></script>
     <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
