@@ -1,0 +1,94 @@
+body {
+    overflow-x: hidden;
+    background-color: #fff;
+    & .account-main {
+        padding: 60px 0;
+        & h2 {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        & .account-left {
+            & button {
+                width: 180px;
+                background-color: #a34253;
+                color: #fff;
+                margin-bottom: 10px;
+                &.active {
+                    background-color: #000;
+                }
+                & a:hover {
+                    color: #fff;
+                }
+            }
+        }
+        & .account-right {
+            & .user-detail-box {
+                & h3 {
+                    margin: 30px 0;
+                    color: #000;
+                    font-size: 18px;
+                }
+                & button{
+                    border-radius: 55px;
+                    padding: 16px 20px;
+                    outline: none;
+                    background-color: #a34253;
+                    color: #fff;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    border: 0;
+                    letter-spacing: 0.1em;
+                    transition: 0.3s all;
+                    display: block;
+                    margin: 10px auto;
+                    &:hover {
+                        background-color: #000;
+                    }
+                }
+                & .user-form-item {
+                    margin-bottom: 15px;
+                    font-size: 14px;
+                    & label {
+                        margin-bottom: 4px;
+                    }
+                    & input {
+                        background-color: #f7f7f7;
+                        min-height: 40px;
+                        width: 100%;
+                        font-size: 14px;
+                        padding: 6px 12px;
+                        border: 1px solid #ddd;
+                        border-radius: 3px;
+                        outline: none;
+                    }
+                }
+            }
+            & table{
+                & thead{
+                    & .product-detail-head{
+                        text-align: center;
+                    }
+                }
+                & tbody{
+                    & tr{
+                        & td{
+                            & img{
+                                width: 60px;
+                            }
+                            & span{
+                                padding: 10px;
+                            }
+                        }
+                        & th{
+                            padding-top: 30px ;
+                        }
+                        & td:not(:nth-child(2)){
+                            padding-top: 30px;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}

@@ -2108,7 +2108,8 @@ body {
       text-align: left;
       padding: 14px; }
     body .faq-main .accordion .item .item-header h2 button {
-      padding: 2px 14px; }
+      padding: 2px 14px;
+      box-shadow: none; }
     body .faq-main .accordion .item .item-header h2 button.btn.btn-link {
       background-color: #a34253;
       color: white;
@@ -2633,3 +2634,64 @@ body {
         transition: .3s all; }
         body .checkout-main .checkout-right .order-buy button:hover {
           background-color: #000; }
+
+body {
+  overflow-x: hidden;
+  background-color: #fff; }
+  body .account-main {
+    padding: 60px 0; }
+    body .account-main h2 {
+      text-align: center;
+      margin-bottom: 50px; }
+    body .account-main .account-left button {
+      width: 180px;
+      background-color: #a34253;
+      color: #fff;
+      margin-bottom: 10px; }
+      body .account-main .account-left button.active {
+        background-color: #000; }
+      body .account-main .account-left button a:hover {
+        color: #fff; }
+    body .account-main .account-right .user-detail-box h3 {
+      margin: 30px 0;
+      color: #000;
+      font-size: 18px; }
+    body .account-main .account-right .user-detail-box button {
+      border-radius: 55px;
+      padding: 16px 20px;
+      outline: none;
+      background-color: #a34253;
+      color: #fff;
+      font-weight: 600;
+      text-transform: uppercase;
+      border: 0;
+      letter-spacing: 0.1em;
+      transition: 0.3s all;
+      display: block;
+      margin: 10px auto; }
+      body .account-main .account-right .user-detail-box button:hover {
+        background-color: #000; }
+    body .account-main .account-right .user-detail-box .user-form-item {
+      margin-bottom: 15px;
+      font-size: 14px; }
+      body .account-main .account-right .user-detail-box .user-form-item label {
+        margin-bottom: 4px; }
+      body .account-main .account-right .user-detail-box .user-form-item input {
+        background-color: #f7f7f7;
+        min-height: 40px;
+        width: 100%;
+        font-size: 14px;
+        padding: 6px 12px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        outline: none; }
+    body .account-main .account-right table thead .product-detail-head {
+      text-align: center; }
+    body .account-main .account-right table tbody tr td img {
+      width: 60px; }
+    body .account-main .account-right table tbody tr td span {
+      padding: 10px; }
+    body .account-main .account-right table tbody tr th {
+      padding-top: 30px; }
+    body .account-main .account-right table tbody tr td:not(:nth-child(2)) {
+      padding-top: 30px; }
