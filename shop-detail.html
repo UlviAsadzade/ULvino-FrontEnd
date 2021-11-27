@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" href="https://demo-40.woovinapro.com/wp-content/uploads/2020/07/favi-icon.png" sizes="192x192">
-    <title>Checkout</title>
+    <title>My Account</title>
 </head>
 
 <body>
@@ -132,104 +132,312 @@
     <section class="page-title" style="background-image: url('./assets/images/page-title.jpg');">
         <div class="container">
             <div class="row">
-                <h1>CHECKOUT</h1>
+                <h1>PRODUCT NAME</h1>
                 <div class="page-tab">
                     <a href="./index.html">HOME</a>
                     <i class="fas fa-angle-right"></i>
-                    <span>CHECKOUT</span>
+                    <a href="./shop.html">SHOP</a>
+                    <i class="fas fa-angle-right"></i>
+                    <span>PRODUCT NAME</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="checkout-main">
+    <section class="shop-detail-main">
         <div class="container">
             <div class="row">
-                <div class="col-6 checkout-left">
-                    <h2>BILLING DETAILS</h2>
-                    <div class="user-detail-box">
-                        <form action="" id="order-form">
-                            <div class="row">
-                                <div class="col-6 user-form-item">
-                                    <label for="">
-                                        Full Name
-                                        <span>*</span>
-                                    </label>
-                                    <input type="text" name="" id="" placeholder="Full Name">
-                                </div>
-                                <div class="col-6 user-form-item">
-                                    <label for="">
-                                        Email
-                                        <span>*</span>
-                                    </label>
-                                    <input type="email" name="" id="" placeholder="Email">
-                                </div>
-                                <div class="col-6 user-form-item">
-                                    <label for="">
-                                        Phone Number
-                                        <span>*</span>
-                                    </label>
-                                    <input type="number" name="" id="" placeholder="Phone number">
-                                </div>
-                                <div class="col-6 user-form-item">
-                                    <label for="">
-                                        City
-                                        <span>*</span>
-                                    </label>
-                                    <input type="text" name="" id="" placeholder="City">
-                                </div>
-                                <div class="col-12 user-form-item">
-                                    <label for="">
-                                        Adress
-                                        <span>*</span>
-                                    </label>
-                                    <input type="text" name="" id="" placeholder="Adress">
-                                </div>
-                                
+                <div class="col-6 shop-detail-left">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./assets/images/wine-1.jpg" class="d-block w-100" alt="...">
                             </div>
-                            <div class="order-notes user-form-item">
-                                <label for="">Order Notes</label>
-                                <textarea name="" id="" cols="30" rows="10" placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
+                            <div class="carousel-item">
+                                <img src="./assets/images/wine-2.jpg" class="d-block w-100" alt="...">
                             </div>
-                        </form>
+                            <div class="carousel-item">
+                                <img src="./assets/images/wine-3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                </div>
+                <div class="col-6 shop-detail-right">
+                    <h2>AUCTOR GRAVIDA ENIM PELLENTESQUE</h2>
+                    <p class="price">$33.00</p>
+                    <div class="product-desc">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                        Consetetur sadipscing elitr, sed diam nonumy eirmod
+                        Ipsum metus feugiat sem, quis fermentum turpis eros eget velit. Donec ac tempus ante. Fusce
+                        ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit
+                        est, sed commodo augue nisi non neque.
+                    </div>
+                    <div class="product-quantity-box">
+                        <div class="product-quantity">
+                            <a href="" class="minus">-</a>
+                            <span class="quantity-count">1</span>
+                            <a href="" class="plus">+</a>
+                        </div>
+                        <button class="add-button add-cart">ADD TO CART</button>
+                        <button class="add-button">WISHLIST</button>
+                    </div>
+                    <hr>
+                    <br>
+                    <div class="shop-details-box">
+                        <p>Category:</p>
+                        <span>Fotified Wine</span>
+                    </div>
+                    <div class="shop-details-box">
+                        <p>Tag:</p>
+                        <span>Tag-1</span>
+                    </div>
+                    <div class="product-rating-box">
+                        <div class="product-rate">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <a href="" class="product-review-count">
+                            ( 5 Reviews )
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-reviews">
+        <div class="container">
+            <div class="row">
+                <h2>Customer Reviews</h2>
+                
+                <div class="all-users-reviews">
+                    <div class="user-review-box">
+                        <div class="user-review">
+                            <div class="product-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <p class="user-comment">
+                                This wine is the best
+                            </p>
+                        </div>
+                        <div class="review-detail">
+                            <p>Ulvi Asadzade</p>
+                            <p>|</p>
+                            <p>27.11.2021</p>
+                        </div>
+                    </div>
+
+                    <div class="user-review-box">
+                        <div class="user-review">
+                            <div class="product-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <p class="user-comment">
+                                Not bad
+                            </p>
+                        </div>
+                        <div class="review-detail">
+                            <p>Ismail Abdullazade</p>
+                            <p>|</p>
+                            <p>28.11.2021</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <form class="add-your-review">
+                    <h3>Add a review</h3>
+                    <h5>Your rating</h5>
+                    <div class="your-rate-box">
+                        <a href="">
+                            <i class="fas fa-star"></i>
+                        </a>
+                        <a href="">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </a>
+                        <a href="">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </a>
+                        <a href="">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </a>
+                        <a href="">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </a>
+                    </div>
+                    <textarea name="" id="" cols="45" rows="8" placeholder="Add your comment..."></textarea>
+                    <button type="submit">SEND</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="same-category-product">
+        <div class="container products-box">
+            <h2>YOU MAY ALSO LIKE…</h2>
+            <div class="row">
+                <div class="col-3">
+                    <div class="product-card">
+                        <div class="card-img">
+                            <a href="">
+                                <img src="./assets/images/wine-1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5>CILLUM DOLORE TORTOR NISL FERMENTUM</h5>
+                            <div class="product-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="product-price">
+                                <!-- <del>$45.00</del> -->
+                                <span>$40.00</span>
+                            </div>
+                        </div>
+                        <div class="product-icons">
+                            <a href="" class="wishlist-button">
+                                <i class="far fa-heart"></i>
+                            </a>
+
+                            <a href="">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-6 checkout-right">
-                    <h2>YOUR ORDER</h2>
-                    <table class="order-detail-box">
-                        <thead>
-                            <tr>
-                                <th class="product-name">Product</th>
-                                <th class="product-total">Subtotal</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="order-product">
-                                <td class="product-name">Condimentum Posuere Consectetur Urna  × 1</td>
-                                <td class="product-price product-total">$40.00</td>
-                            </tr>
-                            <tr class="order-product">
-                                <td class="product-name">Convallis Quam Sit Vitae Sodales  × 3</td>
-                                <td class="product-price product-total">$60.00</td>
-                            </tr>
-                            <tr class="order-product">
-                                <td class="product-name">Donec Eu Libero Ac Dapibus Urna  × 1</td>
-                                <td class="product-price product-total">$13.00</td>
-                            </tr>
-                        </tbody>
-                        <tfoot>
-                            <tr class="order-total">
-                                <th class="product-name">Total</th>
-                                <td class="product-total product-price">$113.00</td>
-                            </tr>
-                        </tfoot>
+                <div class="col-3">
+                    <div class="product-card">
+                        <div class="card-img">
+                            <a href="">
+                                <img src="./assets/images/wine-2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5>Morbi ornare vestibulum massa</h5>
+                            <div class="product-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="product-price">
+                                <!-- <del>$45.00</del> -->
+                                <span>$20.00</span>
+                            </div>
+                        </div>
+                        <div class="product-icons">
+                            <a href="" class="wishlist-button">
+                                <i class="far fa-heart"></i>
+                            </a>
 
-                    </table>
-                    <div class="order-buy">
-                        <button type="submit" form="order-form">BUY</button>
+                            <a href="">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
                     </div>
+                </div>
 
+                <div class="col-3">
+                    <div class="product-card">
+                        <div class="card-img">
+                            <a href="">
+                                <img src="./assets/images/wine-3.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5>Dignissim venenatis tellus ac nulla</h5>
+                            <div class="product-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="product-price">
+                                <!-- <del>$45.00</del> -->
+                                <span>$50.00</span>
+                            </div>
+                        </div>
+                        <div class="product-icons">
+                            <a href="" class="wishlist-button">
+                                <i class="far fa-heart"></i>
+                            </a>
+
+                            <a href="">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="product-card">
+                        <div class="card-img">
+                            <a href="">
+                                <img src="./assets/images/wine-4.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5>Mauris tincidunt eros posuere placerat</h5>
+                            <div class="product-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="product-price">
+                                <del>$22.00</del>
+                                <span>$19.00</span>
+                            </div>
+                        </div>
+                        <div class="product-icons">
+                            <a href="" class="wishlist-button">
+                                <i class="far fa-heart"></i>
+                            </a>
+
+                            <a href="">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -403,6 +611,7 @@
 
 
     <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/shop-detail.js"></script>
     <script src="https://kit.fontawesome.com/b26885e958.js" crossorigin="anonymous"></script>
     <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

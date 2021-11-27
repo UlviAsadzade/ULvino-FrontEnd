@@ -71,6 +71,9 @@ body {
                 }
                 & tbody{
                     & tr{
+                        & .table-price{
+                            color: #a34253;
+                        }
                         & td{
                             & img{
                                 width: 60px;
