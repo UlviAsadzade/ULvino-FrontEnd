@@ -1,0 +1,43 @@
+body {
+    overflow-x: hidden;
+    background-color: #fff;
+    & .blog-detail-main {
+        padding: 60px;
+        & .blog-detail-box {
+            width: 80%;
+            margin: 0 auto;
+            & .blog-detail-img{
+                margin-bottom: 40px;
+                & img {
+                    width: 100%;
+                }
+
+            }
+            
+            & h2 {
+                font-size: 28px;
+                font-weight: 600;
+                margin-bottom: 20px;
+            }
+            & .blog-date {
+                margin-bottom: 40px;
+                color: #777;
+                font-size: 16px;
+                line-height: 1;
+                & i {
+                    color: #a34253;
+                    padding-right: 5px;
+                }
+                & span {
+                    font-size: 13px;
+                    padding-right: 3px;
+                }
+            }
+            & .blog-detail-desc{
+                & p{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

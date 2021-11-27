@@ -2979,3 +2979,33 @@ body {
         transition: .3s all; }
         body .blog-main .blog-main-box .blog-continue:hover {
           background-color: #000; }
+
+body {
+  overflow-x: hidden;
+  background-color: #fff; }
+  body .blog-detail-main {
+    padding: 60px; }
+    body .blog-detail-main .blog-detail-box {
+      width: 80%;
+      margin: 0 auto; }
+      body .blog-detail-main .blog-detail-box .blog-detail-img {
+        margin-bottom: 40px; }
+        body .blog-detail-main .blog-detail-box .blog-detail-img img {
+          width: 100%; }
+      body .blog-detail-main .blog-detail-box h2 {
+        font-size: 28px;
+        font-weight: 600;
+        margin-bottom: 20px; }
+      body .blog-detail-main .blog-detail-box .blog-date {
+        margin-bottom: 40px;
+        color: #777;
+        font-size: 16px;
+        line-height: 1; }
+        body .blog-detail-main .blog-detail-box .blog-date i {
+          color: #a34253;
+          padding-right: 5px; }
+        body .blog-detail-main .blog-detail-box .blog-date span {
+          font-size: 13px;
+          padding-right: 3px; }
+      body .blog-detail-main .blog-detail-box .blog-detail-desc p {
+        font-size: 14px; }
