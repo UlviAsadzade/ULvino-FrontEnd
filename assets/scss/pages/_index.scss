@@ -23,6 +23,9 @@ body {
                         letter-spacing: 0.6px;
                         position: relative;
                         line-height: 96px;
+                        & .header-logo{
+                            height: 75px;
+                        }
                         & i {
                             font-size: 20px;
                         }
@@ -766,7 +769,8 @@ body {
         & .footer-main {
             padding: 60px 0;
             & .footer-logo {
-                margin-bottom: 30px;
+                margin-bottom: 25px;
+                height: 60px;
                 transition: 0.3s all;
                 &:hover {
                     opacity: 0.6;
