@@ -1574,7 +1574,8 @@ body {
           body .feature-products .feature-products-main .products-box .product-card .product-icons i {
             color: #a34253;
             font-size: 24px;
-            margin-bottom: 14px; }
+            margin-bottom: 14px;
+            cursor: pointer; }
         body .feature-products .feature-products-main .products-box .product-card:hover .product-icons {
           opacity: 1; }
         body .feature-products .feature-products-main .products-box .product-card:hover .card-body {
@@ -1945,10 +1946,112 @@ body {
           border: 0;
           padding: 12px 30px;
           text-align: center;
-          transition: .3s all;
+          transition: 0.3s all;
           cursor: pointer; }
           body .modal .modal-content .modal-footer a:hover {
             background-color: #a34253; }
+  body .modal#productModal .modal-dialog {
+    max-width: 900px; }
+    body .modal#productModal .modal-dialog .modal-content {
+      border-radius: 25px;
+      border: 5px solid #a34253;
+      box-shadow: 2px 2px 20px 0 #fff; }
+      body .modal#productModal .modal-dialog .modal-content .modal-body {
+        padding: 0 16px 24px 16px; }
+        body .modal#productModal .modal-dialog .modal-content .modal-body .shop-detail-left {
+          border: 1px solid #ebebeb;
+          border-radius: 5px; }
+          body .modal#productModal .modal-dialog .modal-content .modal-body .shop-detail-left span {
+            filter: invert(1); }
+        body .modal#productModal .modal-dialog .modal-content .modal-body .shop-detail-right {
+          padding-left: 24px;
+          text-align: left; }
+          body .modal#productModal .modal-dialog .modal-content .modal-body .shop-detail-right h2 {
+            font-family: PT Sans;
+            font-weight: 600;
+            font-size: 25px;
+            color: #000000;
+            line-height: 1.2;
+            text-transform: uppercase;
+            margin-bottom: 16px; }
+          body .modal#productModal .modal-dialog .modal-content .modal-body .shop-detail-right .price {
+            color: #a34253;
+            font-size: 22px;
+            font-weight: 500; }
+          body .modal#productModal .modal-dialog .modal-content .modal-body .shop-detail-right .product-desc {
+            color: #666666;
+            font-size: 14px; }
+          body .modal#productModal .modal-dialog .modal-content .modal-body .shop-detail-right .product-quantity-box {
+            display: flex;
+            justify-content: space-between;
+            margin: 30px 0; }
+            body .modal#productModal .modal-dialog .modal-content .modal-body .shop-detail-right .product-quantity-box .product-quantity {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              text-align: center;
+              margin-right: 8px; }
+              body .modal#productModal .modal-dialog .modal-content .modal-body .shop-detail-right .product-quantity-box .product-quantity .minus {
+                border: 1px solid #e4e4e4;
+                border-right-width: 0;
+                min-height: 50px;
+                line-height: 48px;
+                width: 35px;
+                font-size: 20px;
+                color: #777;
+                border-radius: 25px 0 0 25px; }
+              body .modal#productModal .modal-dialog .modal-content .modal-body .shop-detail-right .product-quantity-box .product-quantity span {
+                color: #454545;
+                border: 1px solid #e4e4e4;
+                max-width: 58px;
+                min-height: 50px;
+                line-height: 48px;
+                width: 35px;
+                font-size: 20px; }
+              body .modal#productModal .modal-dialog .modal-content .modal-body .shop-detail-right .product-quantity-box .product-quantity .plus {
+                border: 1px solid #e4e4e4;
+                border-left-width: 0;
+                min-height: 50px;
+                line-height: 48px;
+                width: 35px;
+                font-size: 20px;
+                color: #777;
+                border-radius: 0 25px 25px 0; }
+            body .modal#productModal .modal-dialog .modal-content .modal-body .shop-detail-right .product-quantity-box .add-button {
+              min-width: 130px;
+              font-size: 13px;
+              font-weight: 600;
+              color: #fff;
+              border-radius: 25px;
+              background-color: #a34253;
+              letter-spacing: 0.1em;
+              transition: all 0.3s ease;
+              border: none; }
+              body .modal#productModal .modal-dialog .modal-content .modal-body .shop-detail-right .product-quantity-box .add-button:hover {
+                background-color: #000; }
+              body .modal#productModal .modal-dialog .modal-content .modal-body .shop-detail-right .product-quantity-box .add-button.add-cart {
+                background-color: #000; }
+                body .modal#productModal .modal-dialog .modal-content .modal-body .shop-detail-right .product-quantity-box .add-button.add-cart:hover {
+                  background-color: #a34253; }
+          body .modal#productModal .modal-dialog .modal-content .modal-body .shop-detail-right .shop-details-box {
+            display: flex;
+            font-size: 14px;
+            color: #787878; }
+            body .modal#productModal .modal-dialog .modal-content .modal-body .shop-detail-right .shop-details-box p {
+              color: #333;
+              font-weight: 600;
+              margin-right: 6px; }
+            body .modal#productModal .modal-dialog .modal-content .modal-body .shop-detail-right .shop-details-box span {
+              color: #555; }
+          body .modal#productModal .modal-dialog .modal-content .modal-body .shop-detail-right .product-rating-box {
+            display: flex; }
+            body .modal#productModal .modal-dialog .modal-content .modal-body .shop-detail-right .product-rating-box i {
+              color: #f9bf00; }
+            body .modal#productModal .modal-dialog .modal-content .modal-body .shop-detail-right .product-rating-box .product-review-count {
+              display: inline-block;
+              margin-left: 10px;
+              color: #f9bf00;
+              font-size: 14px; }
 
 body {
   overflow-x: hidden;
@@ -2276,7 +2379,8 @@ body {
         body .shop-main .shop-products .product-card .product-icons i {
           color: #a34253;
           font-size: 24px;
-          margin-bottom: 14px; }
+          margin-bottom: 14px;
+          cursor: pointer; }
       body .shop-main .shop-products .product-card:hover .product-icons {
         opacity: 1; }
       body .shop-main .shop-products .product-card:hover .card-body {
@@ -2777,6 +2881,8 @@ body {
             background-color: #000; }
           body .shop-detail-main .shop-detail-right .product-quantity-box .add-button.add-cart {
             background-color: #000; }
+            body .shop-detail-main .shop-detail-right .product-quantity-box .add-button.add-cart:hover {
+              background-color: #a34253; }
       body .shop-detail-main .shop-detail-right .shop-details-box {
         display: flex;
         font-size: 14px;

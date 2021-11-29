@@ -23,7 +23,7 @@ body {
                         letter-spacing: 0.6px;
                         position: relative;
                         line-height: 96px;
-                        & .header-logo{
+                        & .header-logo {
                             height: 75px;
                         }
                         & i {
@@ -522,6 +522,7 @@ body {
                             color: #a34253;
                             font-size: 24px;
                             margin-bottom: 14px;
+                            cursor: pointer;
                         }
                     }
                     &:hover .product-icons {
@@ -920,7 +921,7 @@ body {
                     line-height: 1.2;
                     text-transform: capitalize;
                     margin-left: 180px;
-                    &.create-account{
+                    &.create-account {
                         margin-left: 115px;
                     }
                 }
@@ -999,7 +1000,7 @@ body {
                     border: 0;
                     padding: 12px 30px;
                     text-align: center;
-                    transition: .3s all;
+                    transition: 0.3s all;
                     cursor: pointer;
                     &:hover {
                         background-color: #a34253;
@@ -1007,5 +1008,136 @@ body {
                 }
             }
         }
+    }
+
+    .modal#productModal {
+        & .modal-dialog{
+            max-width: 900px;
+            & .modal-content {
+                border-radius: 25px;
+                border: 5px solid #a34253;
+                box-shadow: 2px 2px 20px 0 #fff;
+                
+                & .modal-body{
+                    padding: 0 16px 24px 16px;
+                    & .shop-detail-left {
+                        border: 1px solid #ebebeb;
+                        border-radius: 5px;
+                        & span {
+                            filter: invert(1);
+                        }
+                    }
+                    & .shop-detail-right {
+                        padding-left: 24px;
+                        text-align: left;
+                        & h2 {
+                            font-family: PT Sans;
+                            font-weight: 600;
+                            font-size: 25px;
+                            color: #000000;
+                            line-height: 1.2;
+                            text-transform: uppercase;
+                            margin-bottom: 16px;
+                        }
+                        & .price {
+                            color: #a34253;
+                            font-size: 22px;
+                            font-weight: 500;
+                        }
+                        & .product-desc {
+                            color: #666666;
+                            font-size: 14px;
+                        }
+                        & .product-quantity-box {
+                            display: flex;
+                            justify-content: space-between;
+                            margin: 30px 0;
+                            & .product-quantity {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                text-align: center;
+                                margin-right: 8px;
+                                & .minus {
+                                    border: 1px solid #e4e4e4;
+                                    border-right-width: 0;
+                                    min-height: 50px;
+                                    line-height: 48px;
+                                    width: 35px;
+                                    font-size: 20px;
+                                    color: #777;
+                                    border-radius: 25px 0 0 25px;
+                                }
+                                & span {
+                                    color: #454545;
+                                    border: 1px solid #e4e4e4;
+                                    max-width: 58px;
+                                    min-height: 50px;
+                                    line-height: 48px;
+                                    width: 35px;
+                                    font-size: 20px;
+                                }
+                                & .plus {
+                                    border: 1px solid #e4e4e4;
+                                    border-left-width: 0;
+                                    min-height: 50px;
+                                    line-height: 48px;
+                                    width: 35px;
+                                    font-size: 20px;
+                                    color: #777;
+                                    border-radius: 0 25px 25px 0;
+                                }
+                            }
+                            & .add-button {
+                                min-width: 130px;
+                                font-size: 13px;
+                                font-weight: 600;
+                                color: #fff;
+                                border-radius: 25px;
+                                background-color: #a34253;
+                                letter-spacing: 0.1em;
+                                transition: all 0.3s ease;
+                                border: none;
+                                &:hover {
+                                    background-color: #000;
+                                }
+                                &.add-cart {
+                                    background-color: #000;
+                                    &:hover{
+                                        background-color: #a34253;
+                                    }
+                                }
+                            }
+                        }
+                        & .shop-details-box {
+                            display: flex;
+                            font-size: 14px;
+                            color: #787878;
+                            & p {
+                                color: #333;
+                                font-weight: 600;
+                                margin-right: 6px;
+                            }
+                            & span {
+                                color: #555;
+                            }
+                        }
+                        & .product-rating-box {
+                            display: flex;
+                            & i {
+                                color: #f9bf00;
+                            }
+                            & .product-review-count {
+                                display: inline-block;
+                                margin-left: 10px;
+                                color: #f9bf00;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
     }
 }
