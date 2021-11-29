@@ -13,8 +13,11 @@ body {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-
                 li {
+                    & a.searchModal {
+                        color: #fff;
+                        cursor: pointer;
+                    }
                     a {
                         transition: 0.2s all;
                         opacity: 0.8;
@@ -1011,14 +1014,14 @@ body {
     }
 
     .modal#productModal {
-        & .modal-dialog{
+        & .modal-dialog {
             max-width: 900px;
             & .modal-content {
                 border-radius: 25px;
                 border: 5px solid #a34253;
                 box-shadow: 2px 2px 20px 0 #fff;
-                
-                & .modal-body{
+
+                & .modal-body {
                     padding: 0 16px 24px 16px;
                     & .shop-detail-left {
                         border: 1px solid #ebebeb;
@@ -1103,7 +1106,7 @@ body {
                                 }
                                 &.add-cart {
                                     background-color: #000;
-                                    &:hover{
+                                    &:hover {
                                         background-color: #a34253;
                                     }
                                 }
@@ -1138,6 +1141,32 @@ body {
                 }
             }
         }
-        
+    }
+
+    .modal#searchModal {
+        background-color: rgba(0, 0, 0, 0.6);
+        & .modal-dialog {
+            max-width: 900px;
+            & .modal-content {
+                background-color: transparent;
+                border: none;
+                & input {
+                    color: #7e7e7e;
+                    border-radius: 30px;
+                    border: 1px solid #e5e5e5;
+                    width: 800px;
+                    height: 60px;
+                    font-size: 25px;
+                    text-align: center;
+                    color: #fff;
+                    background-color: transparent;
+                    &:focus {
+                        outline: none;
+                        box-shadow: 0 0 10px #e6dee0;
+                    }
+                }
+                
+            }
+        }
     }
 }

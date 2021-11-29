@@ -1177,6 +1177,9 @@ body {
       display: flex;
       justify-content: space-between;
       align-items: center; }
+      body header .header-fixed ul li a.searchModal {
+        color: #fff;
+        cursor: pointer; }
       body header .header-fixed ul li a {
         transition: 0.2s all;
         opacity: 0.8;
@@ -2052,6 +2055,26 @@ body {
               margin-left: 10px;
               color: #f9bf00;
               font-size: 14px; }
+  body .modal#searchModal {
+    background-color: rgba(0, 0, 0, 0.6); }
+    body .modal#searchModal .modal-dialog {
+      max-width: 900px; }
+      body .modal#searchModal .modal-dialog .modal-content {
+        background-color: transparent;
+        border: none; }
+        body .modal#searchModal .modal-dialog .modal-content input {
+          color: #7e7e7e;
+          border-radius: 30px;
+          border: 1px solid #e5e5e5;
+          width: 800px;
+          height: 60px;
+          font-size: 25px;
+          text-align: center;
+          color: #fff;
+          background-color: transparent; }
+          body .modal#searchModal .modal-dialog .modal-content input:focus {
+            outline: none;
+            box-shadow: 0 0 10px #e6dee0; }
 
 body {
   overflow-x: hidden;
